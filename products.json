@@ -1,0 +1,134 @@
+{
+  "platforms": [
+    { "system": "x86_64-linux", "os": "linux", "arch": "amd64" },
+    { "system": "aarch64-linux", "os": "linux", "arch": "arm64" },
+    { "system": "armv7l-linux", "os": "linux", "arch": "arm" },
+    { "system": "i686-linux", "os": "linux", "arch": "386" },
+    { "system": "powerpc64le-linux", "os": "linux", "arch": "ppc64le" },
+    { "system": "x86_64-darwin", "os": "darwin", "arch": "amd64" },
+    { "system": "aarch64-darwin", "os": "darwin", "arch": "arm64" }
+  ],
+
+  "products": [
+    {
+      "name": "terraform",
+      "description": "Tool for building, changing, and versioning infrastructure safely and efficiently",
+      "license": "bsl11",
+      "resolveLicense": true
+    },
+    {
+      "name": "vault",
+      "description": "Tool for managing secrets and protecting sensitive data",
+      "license": "bsl11",
+      "resolveLicense": true
+    },
+    {
+      "name": "consul",
+      "description": "Service networking solution for service discovery, configuration and segmentation",
+      "license": "bsl11",
+      "resolveLicense": true
+    },
+    {
+      "name": "nomad",
+      "description": "Cluster scheduler and workload orchestrator",
+      "license": "bsl11",
+      "resolveLicense": true
+    },
+    {
+      "name": "packer",
+      "description": "Tool for creating identical machine images for multiple platforms from a single source configuration",
+      "license": "bsl11",
+      "resolveLicense": true
+    },
+    {
+      "name": "boundary",
+      "description": "Identity-based access management for dynamic infrastructure",
+      "license": "bsl11",
+      "resolveLicense": true
+    },
+    {
+      "name": "waypoint",
+      "description": "Consistent build, deploy and release workflow across platforms",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "terraform-ls",
+      "description": "Language server for Terraform",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "consul-template",
+      "description": "Template rendering, notifier and supervisor for Consul and Vault data",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "envconsul",
+      "description": "Launch a subprocess with environment variables populated from Consul and Vault",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "nomad-pack",
+      "description": "Package manager and templating tool for Nomad",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "nomad-autoscaler",
+      "description": "Autoscaling daemon for Nomad",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "levant",
+      "description": "Templating and deployment tool for Nomad jobs",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "serf",
+      "description": "Decentralised cluster membership, failure detection and orchestration",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "hcdiag",
+      "description": "Diagnostics collection tool for HashiCorp products",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "hcp",
+      "description": "Command-line interface for HashiCorp Cloud Platform",
+      "license": "mpl20",
+      "resolveLicense": true
+    },
+    {
+      "name": "sentinel",
+      "description": "Embedded policy-as-code framework",
+      "license": "unfree",
+      "resolveLicense": false
+    },
+    {
+      "name": "tfc-agent",
+      "description": "Agent for running Terraform operations on private infrastructure",
+      "license": "unfree",
+      "resolveLicense": false
+    },
+    {
+      "name": "vault-radar",
+      "description": "Scanner for secrets leaked into source code and other data stores",
+      "license": "unfree",
+      "resolveLicense": false
+    },
+    {
+      "name": "vlt",
+      "description": "Command-line interface for HCP Vault Secrets",
+      "license": "unfree",
+      "resolveLicense": false
+    }
+  ]
+}

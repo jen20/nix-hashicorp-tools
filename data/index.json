@@ -1,0 +1,294 @@
+{
+  "boundary": {
+    "latest": {
+      "aarch64-darwin": "0.21.3",
+      "aarch64-linux": "0.21.3",
+      "armv7l-linux": "0.21.3",
+      "i686-linux": "0.21.3",
+      "x86_64-darwin": "0.21.3",
+      "x86_64-linux": "0.21.3"
+    }
+  },
+  "consul": {
+    "latest": {
+      "aarch64-darwin": "2.0.2",
+      "aarch64-linux": "2.0.2",
+      "armv7l-linux": "2.0.2",
+      "i686-linux": "2.0.2",
+      "x86_64-darwin": "2.0.2",
+      "x86_64-linux": "2.0.2"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "2.0.0-rc2",
+      "aarch64-linux": "2.0.0-rc2",
+      "armv7l-linux": "2.0.0-rc2",
+      "i686-linux": "2.0.0-rc2",
+      "x86_64-darwin": "2.0.0-rc2",
+      "x86_64-linux": "2.0.0-rc2"
+    }
+  },
+  "consul-template": {
+    "latest": {
+      "aarch64-darwin": "0.42.1",
+      "aarch64-linux": "0.42.1",
+      "armv7l-linux": "0.42.1",
+      "i686-linux": "0.42.1",
+      "x86_64-darwin": "0.42.1",
+      "x86_64-linux": "0.42.1"
+    }
+  },
+  "envconsul": {
+    "latest": {
+      "aarch64-darwin": "0.14.0",
+      "aarch64-linux": "0.14.0",
+      "armv7l-linux": "0.14.0",
+      "i686-linux": "0.14.0",
+      "x86_64-darwin": "0.14.0",
+      "x86_64-linux": "0.14.0"
+    }
+  },
+  "hcdiag": {
+    "latest": {
+      "aarch64-darwin": "0.5.13",
+      "aarch64-linux": "0.5.13",
+      "armv7l-linux": "0.5.13",
+      "i686-linux": "0.5.13",
+      "x86_64-darwin": "0.5.13",
+      "x86_64-linux": "0.5.13"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "0.5.3-rc0",
+      "aarch64-linux": "0.5.3-rc0",
+      "armv7l-linux": "0.5.3-rc0",
+      "i686-linux": "0.5.3-rc0",
+      "x86_64-darwin": "0.5.3-rc0",
+      "x86_64-linux": "0.5.3-rc0"
+    }
+  },
+  "hcp": {
+    "latest": {
+      "aarch64-darwin": "0.11.0",
+      "aarch64-linux": "0.11.0",
+      "armv7l-linux": "0.11.0",
+      "i686-linux": "0.11.0",
+      "x86_64-darwin": "0.11.0",
+      "x86_64-linux": "0.11.0"
+    }
+  },
+  "levant": {
+    "latest": {
+      "aarch64-darwin": "0.4.0",
+      "aarch64-linux": "0.4.0",
+      "armv7l-linux": "0.3.3",
+      "i686-linux": "0.3.3",
+      "x86_64-darwin": "0.4.0",
+      "x86_64-linux": "0.4.0"
+    },
+    "latestPrerelease": {
+      "aarch64-linux": "0.3.0-beta1",
+      "armv7l-linux": "0.3.0-beta1",
+      "i686-linux": "0.3.0-beta1",
+      "x86_64-darwin": "0.3.0-beta1",
+      "x86_64-linux": "0.3.0-beta1"
+    }
+  },
+  "nomad": {
+    "latest": {
+      "aarch64-darwin": "2.0.4",
+      "aarch64-linux": "2.0.4",
+      "armv7l-linux": "1.8.2",
+      "i686-linux": "1.5.17",
+      "x86_64-darwin": "2.0.4",
+      "x86_64-linux": "2.0.4"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "2.0.0-rc.1",
+      "aarch64-linux": "2.0.0-rc.1",
+      "armv7l-linux": "1.8.0-rc.1",
+      "i686-linux": "1.5.0-rc.1",
+      "x86_64-darwin": "2.0.0-rc.1",
+      "x86_64-linux": "2.0.0-rc.1"
+    }
+  },
+  "nomad-autoscaler": {
+    "latest": {
+      "aarch64-darwin": "0.5.0",
+      "aarch64-linux": "0.5.0",
+      "armv7l-linux": "0.4.4",
+      "i686-linux": "0.4.4",
+      "x86_64-darwin": "0.5.0",
+      "x86_64-linux": "0.5.0"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "0.4.0-rc.1",
+      "aarch64-linux": "0.4.0-rc.1",
+      "armv7l-linux": "0.4.0-rc.1",
+      "i686-linux": "0.4.0-rc.1",
+      "x86_64-darwin": "0.4.0-rc.1",
+      "x86_64-linux": "0.4.0-rc.1"
+    }
+  },
+  "nomad-pack": {
+    "latest": {
+      "aarch64-darwin": "0.4.2",
+      "aarch64-linux": "0.4.2",
+      "armv7l-linux": "0.1.1",
+      "x86_64-darwin": "0.4.2",
+      "x86_64-linux": "0.4.2"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "0.0.1-techpreview.3",
+      "aarch64-linux": "0.0.1-techpreview2",
+      "armv7l-linux": "0.0.1-techpreview2",
+      "i686-linux": "0.0.1-techpreview2",
+      "x86_64-darwin": "0.0.1-techpreview2",
+      "x86_64-linux": "0.0.1-techpreview2"
+    }
+  },
+  "packer": {
+    "latest": {
+      "aarch64-darwin": "1.16.0",
+      "aarch64-linux": "1.16.0",
+      "armv7l-linux": "1.16.0",
+      "i686-linux": "1.16.0",
+      "powerpc64le-linux": "1.16.0",
+      "x86_64-darwin": "1.16.0",
+      "x86_64-linux": "1.16.0"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "1.12.0-alpha1",
+      "aarch64-linux": "1.12.0-alpha1",
+      "armv7l-linux": "1.12.0-alpha1",
+      "i686-linux": "1.12.0-alpha1",
+      "powerpc64le-linux": "1.12.0-alpha1",
+      "x86_64-darwin": "1.12.0-alpha1",
+      "x86_64-linux": "1.12.0-alpha1"
+    }
+  },
+  "sentinel": {
+    "latest": {
+      "aarch64-darwin": "0.41.0",
+      "aarch64-linux": "0.41.0",
+      "armv7l-linux": "0.41.0",
+      "i686-linux": "0.41.0",
+      "x86_64-darwin": "0.41.0",
+      "x86_64-linux": "0.41.0"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "0.40.1-beta2",
+      "aarch64-linux": "0.40.1-beta2",
+      "armv7l-linux": "0.40.1-beta2",
+      "i686-linux": "0.40.1-beta2",
+      "x86_64-darwin": "0.40.1-beta2",
+      "x86_64-linux": "0.40.1-beta2"
+    }
+  },
+  "serf": {
+    "latest": {
+      "armv7l-linux": "0.8.2",
+      "i686-linux": "0.8.2",
+      "x86_64-darwin": "0.8.2",
+      "x86_64-linux": "0.8.2"
+    }
+  },
+  "terraform": {
+    "latest": {
+      "aarch64-darwin": "1.15.8",
+      "aarch64-linux": "1.15.8",
+      "armv7l-linux": "1.15.8",
+      "i686-linux": "1.15.8",
+      "x86_64-darwin": "1.15.8",
+      "x86_64-linux": "1.15.8"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "1.16.0-beta1",
+      "aarch64-linux": "1.16.0-beta1",
+      "armv7l-linux": "1.16.0-beta1",
+      "i686-linux": "1.16.0-beta1",
+      "x86_64-darwin": "1.16.0-beta1",
+      "x86_64-linux": "1.16.0-beta1"
+    }
+  },
+  "terraform-ls": {
+    "latest": {
+      "aarch64-darwin": "0.39.0",
+      "aarch64-linux": "0.39.0",
+      "armv7l-linux": "0.39.0",
+      "i686-linux": "0.39.0",
+      "x86_64-darwin": "0.39.0",
+      "x86_64-linux": "0.39.0"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "0.39.0-beta5",
+      "aarch64-linux": "0.39.0-beta5",
+      "armv7l-linux": "0.39.0-beta5",
+      "i686-linux": "0.39.0-beta5",
+      "x86_64-darwin": "0.39.0-beta5",
+      "x86_64-linux": "0.39.0-beta5"
+    }
+  },
+  "tfc-agent": {
+    "latest": {
+      "aarch64-linux": "1.30.0",
+      "x86_64-linux": "1.30.0"
+    },
+    "latestPrerelease": {
+      "aarch64-linux": "1.22.0-rc.1",
+      "x86_64-linux": "1.22.0-rc.1"
+    }
+  },
+  "vault": {
+    "latest": {
+      "aarch64-darwin": "2.0.3",
+      "aarch64-linux": "2.0.3",
+      "armv7l-linux": "1.21.1",
+      "i686-linux": "2.0.3",
+      "x86_64-darwin": "2.0.3",
+      "x86_64-linux": "2.0.3"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "2.0.0-rc1",
+      "aarch64-linux": "2.0.0-rc1",
+      "armv7l-linux": "1.21.0-rc1",
+      "i686-linux": "2.0.0-rc1",
+      "x86_64-darwin": "2.0.0-rc1",
+      "x86_64-linux": "2.0.0-rc1"
+    }
+  },
+  "vault-radar": {
+    "latest": {
+      "aarch64-darwin": "0.51.0",
+      "aarch64-linux": "0.51.0",
+      "x86_64-darwin": "0.51.0",
+      "x86_64-linux": "0.51.0"
+    }
+  },
+  "vlt": {
+    "latest": {
+      "aarch64-darwin": "1.0.0",
+      "aarch64-linux": "1.0.0",
+      "armv7l-linux": "1.0.0",
+      "i686-linux": "1.0.0",
+      "x86_64-darwin": "1.0.0",
+      "x86_64-linux": "1.0.0"
+    },
+    "latestPrerelease": {
+      "aarch64-darwin": "1.1.0-alpha.1",
+      "aarch64-linux": "1.1.0-alpha.1",
+      "armv7l-linux": "1.1.0-alpha.1",
+      "i686-linux": "1.1.0-alpha.1",
+      "x86_64-darwin": "1.1.0-alpha.1",
+      "x86_64-linux": "1.1.0-alpha.1"
+    }
+  },
+  "waypoint": {
+    "latest": {
+      "aarch64-darwin": "0.11.4",
+      "aarch64-linux": "0.11.4",
+      "armv7l-linux": "0.11.4",
+      "i686-linux": "0.11.4",
+      "x86_64-darwin": "0.11.4",
+      "x86_64-linux": "0.11.4"
+    }
+  }
+}

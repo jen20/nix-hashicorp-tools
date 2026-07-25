@@ -1,0 +1,75 @@
+name: update
+
+on:
+  schedule:
+    # Shortly after HashiCorp's usual release window.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      product:
+        description: "Restrict the run to a single product"
+        required: false
+        type: string
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: DeterminateSystems/nix-installer-action@main
+
+      - name: Refresh manifests
+        run: |
+          args=(update -signatures lenient)
+          if [ -n "${{ inputs.product }}" ]; then
+            args+=(-product "${{ inputs.product }}")
+          fi
+          nix run .#hcnix -- "${args[@]}"
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if git diff --quiet -- data/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No new releases."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- data/
+          fi
+
+      - name: Validate manifests
+        if: steps.changes.outputs.changed == 'true'
+        run: nix run .#hcnix -- check
+
+      # Evaluating every release catches a corrupt manifest; actually fetching
+      # a few archives is the only thing that proves the recorded hashes work.
+      - name: Check the flake
+        if: steps.changes.outputs.changed == 'true'
+        run: nix flake check --print-build-logs
+
+      - name: Build the latest release of each product
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          products=$(nix eval --raw --impure --expr \
+            'builtins.concatStringsSep " " (map (p: ".#" + p) (builtins.attrNames (builtins.getFlake (toString ./.)).legacyPackages.${builtins.currentSystem}))')
+          # shellcheck disable=SC2086
+          nix build --no-link --print-build-logs $products
+
+      - name: Commit
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          summary=$(git diff --cached --shortstat -- data/)
+          git commit -m "data: refresh release manifests" -m "$summary"
+          git push

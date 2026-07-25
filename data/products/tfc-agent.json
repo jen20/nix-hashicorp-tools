@@ -1,0 +1,1085 @@
+{
+  "product": "tfc-agent",
+  "description": "Agent for running Terraform operations on private infrastructure",
+  "homepage": "https://www.terraform.io/cloud-docs/agents",
+  "mainProgram": "tfc-agent",
+  "latest": {
+    "aarch64-linux": "1.30.0",
+    "x86_64-linux": "1.30.0"
+  },
+  "latestPrerelease": {
+    "aarch64-linux": "1.22.0-rc.1",
+    "x86_64-linux": "1.22.0-rc.1"
+  },
+  "order": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "0.1.7",
+    "0.1.8",
+    "0.1.9",
+    "0.1.10",
+    "0.1.11",
+    "0.1.12",
+    "0.1.13",
+    "0.1.14",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.4.0",
+    "0.4.1",
+    "0.4.2",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.1.5",
+    "1.1.6",
+    "1.1.7",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.2.4",
+    "1.2.5",
+    "1.2.6",
+    "1.2.7",
+    "1.3.0",
+    "1.3.1",
+    "1.4.0-rc.1",
+    "1.4.0-rc.2",
+    "1.4.0",
+    "1.5.0-rc.1",
+    "1.5.0-rc.2",
+    "1.5.0",
+    "1.6.0",
+    "1.6.1",
+    "1.7.0",
+    "1.7.1",
+    "1.8.0-rc.1",
+    "1.8.0",
+    "1.9.0",
+    "1.10.0",
+    "1.10.1",
+    "1.11.0-rc.1",
+    "1.11.0-rc.2",
+    "1.11.0",
+    "1.12.0-rc.1",
+    "1.12.0",
+    "1.12.1",
+    "1.13.0",
+    "1.13.1",
+    "1.14.0",
+    "1.14.1",
+    "1.14.2",
+    "1.14.3",
+    "1.14.4",
+    "1.14.5",
+    "1.15.0-rc.1",
+    "1.15.0-rc.2",
+    "1.15.0-rc.3",
+    "1.15.0",
+    "1.15.1",
+    "1.15.2",
+    "1.15.3",
+    "1.15.4",
+    "1.15.5",
+    "1.16.0",
+    "1.17.0",
+    "1.17.1",
+    "1.17.2",
+    "1.17.3",
+    "1.17.4",
+    "1.17.5",
+    "1.17.6",
+    "1.17.7-rc.1",
+    "1.18.0",
+    "1.19.0",
+    "1.20.0",
+    "1.20.1",
+    "1.20.2",
+    "1.21.0",
+    "1.21.1",
+    "1.21.2",
+    "1.22.0-rc.1",
+    "1.22.0",
+    "1.22.1",
+    "1.22.2",
+    "1.22.3",
+    "1.22.4",
+    "1.22.5",
+    "1.23.0",
+    "1.23.1",
+    "1.23.2",
+    "1.24.0",
+    "1.25.0",
+    "1.25.1",
+    "1.25.2",
+    "1.26.0",
+    "1.27.0",
+    "1.28.0",
+    "1.28.1",
+    "1.28.2",
+    "1.28.3",
+    "1.28.4",
+    "1.28.5",
+    "1.28.6",
+    "1.28.7",
+    "1.28.8",
+    "1.28.9",
+    "1.28.10",
+    "1.28.11",
+    "1.28.12",
+    "1.29.0",
+    "1.30.0"
+  ],
+  "versions": {
+    "0.1.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "a32836017f53fda9dbe378cf9f1ee563c6c4c78e3d91e0d5f60b379962df3204"
+      }
+    },
+    "0.1.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "99cac94e8d4faf691ddf13afe2d009339b06085fdf0d796930c421da63582e64"
+      }
+    },
+    "0.1.10": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "47d387138ce486140555dc9a392623ce4580a108970ae4b631d9a381b7dff0ca"
+      }
+    },
+    "0.1.11": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "6672919f45a77962bf91be306fa9abc1fef6dfe835d156916eefeb62d1e07b82"
+      }
+    },
+    "0.1.12": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "ab3b622255dc84647940aeace25a3f9b13b9d0a18cded8044315022296e68294"
+      }
+    },
+    "0.1.13": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "ae39886ce05b3eab939ea0e7e9bc134b8bfb0354f7cd838d1b53aa4622527530"
+      }
+    },
+    "0.1.14": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "b566788c777be82fc0877ad23ab58f6ecc636d0d47a3e60abba447b3fefb7e34"
+      }
+    },
+    "0.1.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "b22d8617a2d3a767ed6b6a4507c770fa89f2f303f79985f96b6665113dc33927"
+      }
+    },
+    "0.1.3": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "5653a890c04c17c64949e8c7808ac55ade6e921238d65cb6414455bf9e36b20e"
+      }
+    },
+    "0.1.4": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "cb962e88abfec1b3a63fef2b2fa368e6b4208237e15e42058055010caf8f1317"
+      }
+    },
+    "0.1.5": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "6186fa0d3f0d932a6ee11215fbed7037dba3f1c35d996b189c52f20ba68255eb"
+      }
+    },
+    "0.1.6": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "bf95147b3da72141a4e0d8e5b171bd45044e57c1763c9c981ed521dbac1ec48e"
+      }
+    },
+    "0.1.7": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "1f4545605d9017b4b72ec11287e4edbc22e4714488e7f911e2c7b304e883c15a"
+      }
+    },
+    "0.1.8": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "5ff4a11084aee07b4bea3b1ba14fb81477b305b0cbb0b9477623d804b114479e"
+      }
+    },
+    "0.1.9": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "5464ae93299963b21c44749b6a419da80e6817469f9609f97e6626964230e986"
+      }
+    },
+    "0.2.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "777f9c94a12e60878b1c66d30cc20ad9a91960f975d68e30a38ac1e64fdf2364"
+      }
+    },
+    "0.2.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "ae3394688ff0d2102f3e2940ffbdba6b538b34a3d112a80e3d2f441d29b76b82"
+      }
+    },
+    "0.3.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "4143d273876892050154c6e9391e9d0e81fd413dd07cbe3e8c474bd62aec8648"
+      }
+    },
+    "0.3.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "f916cce0a137485ad8a958ba8404e593c0ed51a747cb9ecde1697772542c4c8c"
+      }
+    },
+    "0.3.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "a66afe14ed4f896920249b0bd96b437d192ae7681cf2796ffb11c5554d6a342a"
+      }
+    },
+    "0.4.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "bb9db0edc2932b753128b61243cd772196fd8ecfc67545b7c193932bcbdaf3cc"
+      }
+    },
+    "0.4.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "853a843e189f3cd24a4b63ad106a18dbf389891e4ac71b61ea93f787e75e17e6"
+      }
+    },
+    "0.4.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "af1ee92c02cd4670e5e255abb60f4047d7bae247f418a7fb0e24d96901fcba23"
+      }
+    },
+    "1.0.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "edc0419f2d1f221aeb909757d82fe9e391a46f771f14131a94566e1e98cbcae0"
+      }
+    },
+    "1.0.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "0cb56f9e39842e167ca790a8eb5030cab3cb74caae3abe63e272de4a286625f6"
+      }
+    },
+    "1.0.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "5825da7ceb1ce448405b41b35836e32070bb1cd911c77f35b9f02fef786619cd"
+      }
+    },
+    "1.1.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "1baf4ec65eac52829a5db88ba6099977e2aa0416598a20b6875a2c0be41846d1"
+      }
+    },
+    "1.1.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "02d84bc6015533a97fc32267a38d8874751a6dcc1ead8f4b37daab7e68b532da"
+      }
+    },
+    "1.1.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "c89590c793232172e29166566f328f3fdb9ffea519d55db5d2870e3562aa2849"
+      }
+    },
+    "1.1.3": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "257d1ffe62db3bcabd812b00d05579903db6a26a9a53bc07f4b8430400046439"
+      }
+    },
+    "1.1.4": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "6e9b1fd840ba6ef9e39ef1633fef9fe9a27979c08d4a6ac9d481646c3d61e452"
+      }
+    },
+    "1.1.5": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "ea457eb115b1caebcb2db754d610373bb02d1da86e0db750a55950e49d5f7c5e"
+      }
+    },
+    "1.1.6": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "3835736181f029e80236f8cd6424747aeaba17506144b204817538831d49004f"
+      }
+    },
+    "1.1.7": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "5d24b54f5c91bfdaff9f2fff9fca43b7a02941db4a07fb5908e3d9d44c52592b"
+      }
+    },
+    "1.10.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "f008981d948d3400af9db38480a67847587b41f6fc6f38050879b1d0b1477f3e"
+      }
+    },
+    "1.10.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "74101ff951c608a665884e3e5adf808aa9f1c30fc04f536cf6679bd15f4c9f70"
+      }
+    },
+    "1.11.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "f8f38e3fb27a5f99f0ee4aa8cfe99815bd1c018105136506333f74baec057a4e"
+      }
+    },
+    "1.11.0-rc.1": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "251cca622a02692485c13bf6db0ffb984283ab7bca6e3c9b9f7cfd7c7ed94ce4"
+      }
+    },
+    "1.11.0-rc.2": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "0527e4d02d2e6753ff6f68b91d743954fcdde942a6a07b06114d680f26f1b0e9"
+      }
+    },
+    "1.12.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "f2079a5bbf3a17f0fddd34f7396cb5c8a1c42936eca51c1549c1e3ee0c1a3d23"
+      }
+    },
+    "1.12.0-rc.1": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "74d5cbe674548a9dce8452e8af123d883e919dcee7543bbb3aea94c0f36dd76a"
+      }
+    },
+    "1.12.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "8b0ff11b7da639b372cc87dd7801d7e57b623a233af0491500c2fb43dd86464f"
+      }
+    },
+    "1.13.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "0c6d9c9778e981317d522c2b081f79639e0a04ca384365921957351e21996b45"
+      }
+    },
+    "1.13.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "113821103b1fe6486269b48c1fe1b848d8ebc9fc63747b272cef0d937795f5b1"
+      }
+    },
+    "1.14.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "95c4f5335992055b9f01f1c2ad5e0b4995d00812b44a455d901bb1355006da56"
+      }
+    },
+    "1.14.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "ee4b8ed935ecd8a8ba34cd178a038fc177d3872eafbb7014792ef01cd5949aed"
+      }
+    },
+    "1.14.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "f8cda2cf5dadecadf7d446bf7a5753642f6cb381f7c66e86d4ea9b969d64ef98"
+      }
+    },
+    "1.14.3": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "9dc76eb0dac70e4c8879edae8108d1fb2a11fbfdcbc066a99104a255f5ed72c1"
+      }
+    },
+    "1.14.4": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "201aff7c3d13eef5b1155b4d8751acc87194219fcd3ef618be963cbb18d68e88"
+      }
+    },
+    "1.14.5": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "6856deca7149f126cb0eeee88a8a06e0684070219b7756902d959578da0daec2"
+      }
+    },
+    "1.15.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "e4e0e7c8849273a2f203af8eb17c020cf815d61517f041877020e16d77e5b640"
+      }
+    },
+    "1.15.0-rc.1": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "17f88e8aa2f7b4cf3255b85abe20dd2d0046dd9f15981c8a2020eb4e6e2c1059"
+      }
+    },
+    "1.15.0-rc.2": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "48e18fc3e406e883f881c02853607faf94b9f7baff39b192e40ff4a778053ae8"
+      }
+    },
+    "1.15.0-rc.3": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "9ddf452aefddd3cdac3004a494b96a7143e6421bb1f4dfbdb2c7974259e19632"
+      }
+    },
+    "1.15.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "99c6bbc631bf9b184e9f103d3cf6b93569958c63ba9cd50737bdec9a12d82bb8"
+      }
+    },
+    "1.15.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "10be7b0d1812baf4a5bd3a21d1df39e8d77c7001c9390fd1a3b2f0af18e4c1bc"
+      }
+    },
+    "1.15.3": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "060f36d4d0401bf72aa16a7a128db13c807ef9d951e2867581031094eb374411"
+      }
+    },
+    "1.15.4": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "c477ba8624890c420a76feeddf6cea8795e3cdedc9c5a0cfc2a7ab5204d99931"
+      }
+    },
+    "1.15.5": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "42ff0a1d874850f2f6b220e2b2b63d9e127cb7953bcf7df3592198200e4f8f01"
+      }
+    },
+    "1.16.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "269a3ce335a85a8875a19655d7a9acfab77a6c412b37d8b1329967cbeb5a90c9"
+      }
+    },
+    "1.17.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "3952a74c9a3fa0ef9f422e50dda995ef822b0b548ba4b7b38aa4828ee61e58c8"
+      }
+    },
+    "1.17.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "8fb5792828fb5dd6e93c6260c1f69c7b06fbc40666baabddf377f17190c5d40a"
+      }
+    },
+    "1.17.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "8648e7ba2df1350bc402516224986ada3b19efc2f1c8ccae7f672cbfcf55f2fc"
+      }
+    },
+    "1.17.3": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "1b397ae8f14cd30f3f9c541bb25e6ed33f42751901e84afb486cd97f228b9a61"
+      }
+    },
+    "1.17.4": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "4bb665e9848824da06c9cda21f88d55c26dbd51b0b79f5f7bfd08b92389c1e5e"
+      }
+    },
+    "1.17.5": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "5f7b7c6ed22b7d85b3e28261edbb2eb1f1aad0bfe890531b8e6f3c2b69a7f44d"
+      }
+    },
+    "1.17.6": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "d0478a032d26c4b8dbe1f5e2aa3ce7191266cdca9e164ea012376b2909e36281"
+      }
+    },
+    "1.17.7-rc.1": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "911ae862ff0794d9bec96695998e099d9a6d58760ed439c6dbdf83d687f2eb25"
+      }
+    },
+    "1.18.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "5eadc2eddb077d3bd3df6988f0706481196f42b93e15ca7655e03439efd82c0f"
+      }
+    },
+    "1.19.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "a8bac841781d9d288bedec26d86f950e249dce4365dad047c8817f2775a45925"
+      }
+    },
+    "1.2.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "614c4f038481644e5cca24694949f417e1cb8ad74cb57ad340a50a209cdc5dce"
+      }
+    },
+    "1.2.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "382a3c1ef858464d50510f454b693876a57a2eb217e91d7d56601413433324b5"
+      }
+    },
+    "1.2.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "9c31b4d2811eebe4890fe9fdd8f0613e1c3eca552f7aeb22d16a5c125ec7c310"
+      }
+    },
+    "1.2.3": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "187f39b05a71b8329385018b7ddabb2f2aa111924241e2147452066e35aff9fa"
+      }
+    },
+    "1.2.4": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "7ba81895b2a3ec39814f0842d8df579aad537cde8e6c48f5b0efc8d60d1e7183"
+      }
+    },
+    "1.2.5": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "1a991212b5b49c265899a227d8c1d826862401715af10e5ce4c52f0d013f2af1"
+      }
+    },
+    "1.2.6": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "5767461c4630ed2c13c21145b39d7e57d72abfae546e9c3d985087905d34d83f"
+      }
+    },
+    "1.2.7": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "4f3f801e7c5032e8b4ce8cc16be1865ce34963c5c702d54ae634721cf5b09dd2"
+      }
+    },
+    "1.20.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "ecdf6b3ee19e21888f7e37b2075959b95a67972e64fab0778937112b76c744c3"
+      }
+    },
+    "1.20.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "fd36ce79ddcfc8d966e0f5d7cec13351d4e6bd9ad232a6b945478a10f3a4dad3"
+      }
+    },
+    "1.20.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "77b1fd6660d77e263e59cded5a3ca044f7c4372e678ed297a3d1b874b29219ff"
+      }
+    },
+    "1.21.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "e15018a2b0b73985549afc62640ff59125506549ede2b87793bb0a4f1c6d0bd8"
+      }
+    },
+    "1.21.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "1202be1815d784b1a38fb9a3df53332ddf02944e3892a60bff091ac249dcf377"
+      }
+    },
+    "1.21.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "11e9da85ac2f27b9c57dd2ece5c063d7f1d70073569b2aa7e8b6a704ae3d8bc7"
+      }
+    },
+    "1.22.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "ed0e169c60e32d0cb083e58c3bdcb4bae52b89b439ea05dc66b5c7f24788b39b"
+      }
+    },
+    "1.22.0-rc.1": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "3f615ddeea5dcc9ee4ffbc7ad2c885e27f4fcb45ff005b5ff56ffe97dd3adaa2",
+        "x86_64-linux": "160ca8454f3c61a94fc68f4c10cc075cb7b481a1b530ad9a27500ff24b2c0769"
+      }
+    },
+    "1.22.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "40f6069867a58587c243bf86ac14c81d6d5952a9b6a0f3254d384af9433c68c2"
+      }
+    },
+    "1.22.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "d2312cc0c23837f85b8a449e5f979d97c4e001ab26f764f986153a81a5b66ff4"
+      }
+    },
+    "1.22.3": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "f5ae96f966e13d3c4b5a178169de71b2269dd72a393488c9351565e29de1b8c1"
+      }
+    },
+    "1.22.4": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "a812ab14eea64c881a2f7a2d57684ab81aac83b2d917a74fe5966f25fa688dd3",
+        "x86_64-linux": "c2bf8fe29333f604be395cd929f8fae664eb7c4261b68601a5cc16edb407fc9a"
+      }
+    },
+    "1.22.5": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "deb6d05e4d9ada8d3f2847e7534ab5c9908eb5ee38f0eae26c013925f4b56059",
+        "x86_64-linux": "11f3b04adf3f5f408b1cb5b35ecf12d3143a6e01d71ba99c89570425bda0667a"
+      }
+    },
+    "1.23.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "ac510779cf9cf1fb84fc852b11d65bc97c54b8f8c05ecab42d360db435ea9475",
+        "x86_64-linux": "3535c206c81a3203300f7c5e55a39ee3317ee358ab9a30fe95eb41b9f27a226c"
+      }
+    },
+    "1.23.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "40a8e06bdd19199551777ac778cb0e9073524177751873dc1eecbbe25757744d",
+        "x86_64-linux": "051c1c78400557bd83ae69c42017763333548d1ae7c7cedf5fe37c4c10c3f957"
+      }
+    },
+    "1.23.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "9fe8eeaf2f45aea77c2c248a065b1463d3fc0fe7e8a2a0f6e90b3c8df5e75b27",
+        "x86_64-linux": "02b6652268113112ff0ca7a4e6245d28eba8969d39903d075e85ea6643992920"
+      }
+    },
+    "1.24.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "3321051ccedeee84539664245ed9e81730f035d8d98dba1308f858fc7069b9d7",
+        "x86_64-linux": "f8f299ecae583167b2389c5f4edd110336f9feaa22794098dd8de89eec576c63"
+      }
+    },
+    "1.25.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "4a8683b7d34d35bffc2e33e75ef40d84b45c3a79bc9139b0b4541901991164f9",
+        "x86_64-linux": "3d37e0085b7e120653b4c45ea410d1d2698dfa4ed541ba5f22d7192dd975a4cc"
+      }
+    },
+    "1.25.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "5320344e3456283d2a582496db8f52383b667a17d847f9c36aef976c0ec5178e",
+        "x86_64-linux": "42fad3511e69986e9bde6dc6e48d0046c2947415a9c711d0b668f636fa57da95"
+      }
+    },
+    "1.25.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "e3ae5199663ecc04bb5b6fd2a4a8129671f8dca95f05cc2b528b3d5fa0cfc2ae",
+        "x86_64-linux": "e1f07501addec9f64f1ee07210c05a838dab496cce8b42a4685b31158c70eb60"
+      }
+    },
+    "1.26.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "2c4917ac930c2f2b87feb4f5c82fdbf96dbc675d6eb94ca85fd9cdb275045a85",
+        "x86_64-linux": "b8f33c157fb8538017450a0f910a5a2f5eb3c933b3a83d439d61f9a05fe55e4d"
+      }
+    },
+    "1.27.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "696d5d1fd2e682e8623295aabab77761e20cef7357626847166374cc4ff0aa25",
+        "x86_64-linux": "302c14fe39bfae44a358adcd6b5dbdbdb36a7ad96920256ed4a72ed1eddccffb"
+      }
+    },
+    "1.28.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "a946d53b32daba4075b783ac511288ad3ce895845ef0bd57bb8d1c7cf2432f72",
+        "x86_64-linux": "588057f784d157a8a0a51ea4a6fcfbf49956777318a0e32744dfd55f6f366a94"
+      }
+    },
+    "1.28.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "c043d3dbeba064ae290010259461d6c5599955ad31e0e31f8b030297aa8b2ece",
+        "x86_64-linux": "844538d862b477093bc838c9170f4c7ab2c037eb6c14ea5653560fa973eb0d93"
+      }
+    },
+    "1.28.10": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "42c47c08698dcc10eaf2ea9e1e4cfba2003a5723ebc1ff6ea3babefbee4113ac",
+        "x86_64-linux": "e1d75576e57722a6ff2cad762a7d066a61e0831cf0e66f44ee531b8c8932e6e6"
+      }
+    },
+    "1.28.11": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "7ef105db2ec10ebf873d00aacf010989613f6cc1eb4f24da3c6746658b51fabd",
+        "x86_64-linux": "23a9d2b544799fae039bbe66de3b16659c49d1a5c5030a20ef5b611956e1e1e2"
+      }
+    },
+    "1.28.12": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "a3fb6ae4592928191a535791d8a702529e6043bffc9033a3afd90f24b3427ccf",
+        "x86_64-linux": "48a6a68ed8de8e301f02b75b97377675516d32c3763b2649b7c4b5acf4ecfc4d"
+      }
+    },
+    "1.28.2": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "a27175b1af52f0edd357b2527b798ed4b5b29a55429dc9a7a9940bff2d655325",
+        "x86_64-linux": "2ce23043abbd191780e93339ce5943f8d09b9db9b981c82b314f9b2e09d6a5d1"
+      }
+    },
+    "1.28.3": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "020e51ed9d050cfcf4d52370efe900f6154b451accf90abda9a1cc0fba16034d",
+        "x86_64-linux": "e331f2b14393959c3f59c24d8390702c7a083331610e31e13fe06927b48737be"
+      }
+    },
+    "1.28.4": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "8b765865f8b9ebd1897fafb0fe97fd8b4f40daa679b7848722a7ba0a0238feb3",
+        "x86_64-linux": "76e4a2e396f9a3f393c5817d733ba37fc600d9f2e54528856a86055ca3701921"
+      }
+    },
+    "1.28.5": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "4cc8d7b57f032e70dad8386626d265a3aa139c2fb6dfa279ffd8fc6d58f07152",
+        "x86_64-linux": "335bdfc2676c1279bae5eb6d1235868fed4f69b02530d3543235ec8a07b803df"
+      }
+    },
+    "1.28.6": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "4a57529b89280ef0b5cfc3b00a032716e9624e0988d639b33d68606951c361fb",
+        "x86_64-linux": "f7b6d8f3616b1215a6510f6615ff633e12e654c50665e1d16f20bdb71ecb1ade"
+      }
+    },
+    "1.28.7": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "63643b7360a95055d6cca5a9bfc85ce7ea3b4228b9f2fbfa082869a3fd3cfd23",
+        "x86_64-linux": "93369bfc3c60f0f95d6b27685f37d9362928dd1e1fc707e7c94d9dba34630283"
+      }
+    },
+    "1.28.8": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "6eea61b0710daead8263a8392aa6ee43157fea7e21ee313837cea8e0dbd0f6c5",
+        "x86_64-linux": "6ee21457d6481df48bc9c5ecbd18fdf949b28aad1fb34a48995800ca4521476b"
+      }
+    },
+    "1.28.9": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "93e508c4d9d7fc0063997321ae14be40786b4466434f3a59fbd682d8e19e5146",
+        "x86_64-linux": "ec2fdee045acae25eb43a3dab9e18b6338009388fbc4942fe6567bae14b932e8"
+      }
+    },
+    "1.29.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "44927e3f0b5931e13934dff60f785952883685a4cc4e13302c45c04cd159aa89",
+        "x86_64-linux": "45737db4278f219d6e2876431b262d16ed55edc0dbe6e7e9e80ca0233489ea49"
+      }
+    },
+    "1.3.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "e5de4f3fd46e715a21e4f66ed0d9a4dd07a0e6ae4c4c7ce5d28ec68ba40ef1de"
+      }
+    },
+    "1.3.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "7efa50fe641b25b71615790a2ac2db487c9f3b4b9570d2dfa9aa87b27468dc03"
+      }
+    },
+    "1.30.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "b9440fa5c34071c9f465ce3212e6a6dbfa89d2537ed9a52698b9ef8aa7426bda",
+        "x86_64-linux": "0df884dbef0376b524857a6da20fb4227aba16e6fdae87b5b6d328a9ad0435c1"
+      }
+    },
+    "1.4.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "77007c344da0653748405b73ef480aa1791883117411139499d0cca29ecdbae2"
+      }
+    },
+    "1.4.0-rc.1": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "75b1ec991006697112c752672062ddba91d8ea826d129058f7bde4ad31d0dad5"
+      }
+    },
+    "1.4.0-rc.2": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "06a19180f0e7354a29cb0779a41abf9a99887384d457619678b816f85fb9460a"
+      }
+    },
+    "1.5.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "2ba69b756b04b2e28ccc205e74a9d33e3ff4e0ae318f3ef1faf2200874412cf7"
+      }
+    },
+    "1.5.0-rc.1": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "a762fd8a87c31dc17c4ade09e686a27bf61b59f9efc3a629f0c1c4761161273e"
+      }
+    },
+    "1.5.0-rc.2": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "cd0452cc08d71062789d3a325dfc4bceaa0e711f05a4ec9c74e5bec652bdc8da"
+      }
+    },
+    "1.6.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "5cd337a281352f907104e271bf159bf9cb80f9ad570240916e38fd55bfccb419"
+      }
+    },
+    "1.6.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "44fe690ab928ea4f5261829a7e3b2a6e8c1e2af3c4347ff2a8f0b2b64c32b5c1"
+      }
+    },
+    "1.7.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "a68d0ff40632e8cd5fccaa33bb76983cddefa3edb1e0869f0faace458e97a129"
+      }
+    },
+    "1.7.1": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "6d8e9e57b6a1e4cd23fbdabdece063beae77c5c34b2224bb9d0ba57e39d49723"
+      }
+    },
+    "1.8.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "2d27ac9527582fd1e90ef1caa2080283abb219210dfab01b2e0d8df3cb20deaa"
+      }
+    },
+    "1.8.0-rc.1": {
+      "prerelease": true,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "b6d5b69955c20a6fa508e111b8b2de06a0776f65f48dd5e54c4e1a50e1683a32"
+      }
+    },
+    "1.9.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "x86_64-linux": "f29ff8c947210f160d0920d4b5e20f41b7d0d5ec06d3e860da5e335ef7a1542c"
+      }
+    }
+  }
+}

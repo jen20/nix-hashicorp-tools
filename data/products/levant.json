@@ -1,0 +1,98 @@
+{
+  "product": "levant",
+  "description": "Templating and deployment tool for Nomad jobs",
+  "mainProgram": "levant",
+  "sourceRepository": "https://github.com/hashicorp/levant",
+  "latest": {
+    "aarch64-darwin": "0.4.0",
+    "aarch64-linux": "0.4.0",
+    "armv7l-linux": "0.3.3",
+    "i686-linux": "0.3.3",
+    "x86_64-darwin": "0.4.0",
+    "x86_64-linux": "0.4.0"
+  },
+  "latestPrerelease": {
+    "aarch64-linux": "0.3.0-beta1",
+    "armv7l-linux": "0.3.0-beta1",
+    "i686-linux": "0.3.0-beta1",
+    "x86_64-darwin": "0.3.0-beta1",
+    "x86_64-linux": "0.3.0-beta1"
+  },
+  "order": [
+    "0.3.0-beta1",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.4.0"
+  ],
+  "versions": {
+    "0.3.0": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-linux": "5d4af2ed56b7493ea04b0d2a984e26661d3d500cc8bcf097d87545d4583dd9c8",
+        "armv7l-linux": "b7ab105a08622e75fcff2d47e0475f7ba9ccbff791dddfd66ed5f1cd63db6ac1",
+        "i686-linux": "16171b0cf0ea1cdbd6805eb8b0160eaee32ed35f3832f958a231e7d71deb65e5",
+        "x86_64-darwin": "d891e0a25968d7ff2df52d6c3e7b2c90c2a2a645f9dd04b065e7b8561035b2cf",
+        "x86_64-linux": "082bd747cf49bc317035a4caab8742924eac67605a82b1b5f4640d896999ea98"
+      }
+    },
+    "0.3.0-beta1": {
+      "prerelease": true,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-linux": "5875516486a39028272fbb671d8fcf082e0bb751c36aab3ae4a5c5fbcf21a17c",
+        "armv7l-linux": "16469e10da478737ec927fe0b648f25f558faa844c93bd9a1afb98a3425390e4",
+        "i686-linux": "5e764ce16399c512de0314cc954d378c6fcf4273709198ec1c39f00a1b1045b1",
+        "x86_64-darwin": "48bc4c35d5b5335e0fe2ad8eebb1a940ff20985f3c4882baf71e3e351470d382",
+        "x86_64-linux": "020a8b4e2fd5e04da20ec49c0e5ea149d919aafdc4a3a00502a8bae3b714dc57"
+      }
+    },
+    "0.3.1": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-linux": "a30190ba4aa5fd7e6b2ef8cd4e0cd949349736f00d215c8c28137c85a0f1ae3d",
+        "armv7l-linux": "9b7176f351915e0dbc030ab8347c09ee4f10f8b4f4f807637ef8fc23e42f30c2",
+        "i686-linux": "b0fe0871d511aa42a3d8bc156452c0d59166923e6de927f660628c7e9391398e",
+        "x86_64-darwin": "d62eeeb8eca685782e535def46207b873364db322e2b67210ea77a7e7fe30482",
+        "x86_64-linux": "01b4a15a1eb5d6c69178ff383a457a6251658224dd9537fe1ea9f24e07044f76"
+      }
+    },
+    "0.3.2": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-darwin": "1cc92271029937e22b48bf9bf4e9be5b16c0864bdccb43cd3e709d99cd12808a",
+        "aarch64-linux": "8cb3c3c10b5415704964b437d85a2f26091bf25e8575df76403874eee78934b1",
+        "armv7l-linux": "3c511d66e9018fdfefb179f5558f1639aa25f2a3a3376b7033f10a505f3c09a2",
+        "i686-linux": "ceebb6a29f7f473a0d2b7165a33312309cc8b57031469aa1f7b7b05c87ecff4a",
+        "x86_64-darwin": "7406a9f089227254f3ed7eb4f67d22dc28c44b41f2233391b5f0d3ffa1be861e",
+        "x86_64-linux": "1e06180f8d8327e721e2ad4c9637d1f391034a22709473b8ed8ee19f1cad1570"
+      }
+    },
+    "0.3.3": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-darwin": "aeb4e4a5bca4be48ba8706d671d50893f2db439cf61f302162293a4362bddeb0",
+        "aarch64-linux": "e2e3bf5aed271d848d8aac86b4649594b7f9aa1e11aa4612f5b571f97598bba4",
+        "armv7l-linux": "02c7106dbf788fdc592f30393a44c9fc4103c7ec7b5662eed351425b149e3a7e",
+        "i686-linux": "75a6196be4b683f14102fe1f1218b51738a5e13d113f9fea09268ffc1cbe54a6",
+        "x86_64-darwin": "da1f7b45a5a10f8d2387ac40aac7eb52c3dbe6606e9948b51ee0efb82f88c165",
+        "x86_64-linux": "630c4c0499fdc0b904be22905e18dcd81350f8011ab1494b23f20d06f192d462"
+      }
+    },
+    "0.4.0": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-darwin": "50bc8792f672042e3c23a70b994d2c2075fe8b5c3f9ae0cb5caf55e4c6c4559e",
+        "aarch64-linux": "ee57441091f62f55b3103af6374cff066721f582a8b06b52ba0ebe3b8fb4f102",
+        "x86_64-darwin": "5c82f04a8c229b0a6a212b110229be0917595ab3be9b89cdcb7f7da8c667a789",
+        "x86_64-linux": "44ff68a3f25b15aded1da2b7bae6ddbcdac09e4517d526d69ed79180bc4240ed"
+      }
+    }
+  }
+}

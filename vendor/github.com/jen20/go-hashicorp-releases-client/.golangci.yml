@@ -1,0 +1,11 @@
+run:
+  timeout: 10m
+
+liters:
+  enable-all: true
+
+issues:
+  exclude-dirs:
+    - testdata$
+    - .direnv
+  exclude-dirs-use-default: false

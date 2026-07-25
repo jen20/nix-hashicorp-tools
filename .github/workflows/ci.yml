@@ -1,0 +1,75 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+
+      - name: Format
+        run: |
+          unformatted=$(nix develop --command gofmt -l cmd internal)
+          if [ -n "$unformatted" ]; then
+            echo "not gofmt'd:" >&2
+            echo "$unformatted" >&2
+            exit 1
+          fi
+
+      - name: Vet
+        run: nix develop --command go vet ./...
+
+      - name: Lint
+        run: nix develop --command golangci-lint run
+
+      - name: Test
+        run: nix develop --command go test ./...
+
+      # A stale vendor directory would only show up when buildGoModule runs,
+      # which is too late to be a useful signal.
+      - name: Vendor directory is current
+        run: |
+          nix develop --command go mod vendor
+          git diff --exit-code -- vendor go.mod go.sum
+
+  nix:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+
+      # Scoped rather than run over "." so that the vendored dependency, which
+      # carries a flake of its own, is left exactly as `go mod vendor` wrote it.
+      - name: Format
+        run: |
+          nix develop --command nixfmt --check \
+            flake.nix default.nix shell.nix lib templates
+
+      - name: Validate manifests
+        run: nix run .#hcnix -- check
+
+      # This evaluates every release for the runner's system as well as
+      # building a representative handful.
+      - name: Check the flake
+        run: nix flake check --print-build-logs
+
+      - name: Template works end to end
+        run: |
+          nix flake new -t "$GITHUB_WORKSPACE#default" "$RUNNER_TEMP/consumer"
+          cd "$RUNNER_TEMP/consumer"
+          git init -q . && git add -A
+          nix develop --override-input hashicorp-tools "$GITHUB_WORKSPACE" \
+            --command sh -c 'terraform version && vault version'
