@@ -5,12 +5,12 @@
   "mainProgram": "vault",
   "sourceRepository": "https://github.com/hashicorp/vault",
   "latest": {
-    "aarch64-darwin": "2.0.3",
-    "aarch64-linux": "2.0.3",
+    "aarch64-darwin": "2.0.4",
+    "aarch64-linux": "2.0.4",
     "armv7l-linux": "1.21.1",
-    "i686-linux": "2.0.3",
-    "x86_64-darwin": "2.0.3",
-    "x86_64-linux": "2.0.3"
+    "i686-linux": "2.0.4",
+    "x86_64-darwin": "2.0.4",
+    "x86_64-linux": "2.0.4"
   },
   "latestPrerelease": {
     "aarch64-darwin": "2.0.0-rc1",
@@ -300,7 +300,8 @@
     "2.0.0",
     "2.0.1",
     "2.0.2",
-    "2.0.3"
+    "2.0.3",
+    "2.0.4"
   ],
   "versions": {
     "0.1.0": {
@@ -3500,6 +3501,17 @@
         "i686-linux": "8173bbebcf098e5da538ffcbef68d12efb716b4fb1144750315930e86fa44085",
         "x86_64-darwin": "a3462df67c00d1092727dd4fedfba256d2d22d5846fb514c96e03133f567b6af",
         "x86_64-linux": "1e0ffb7a82491219c7242da6e05e2d756b05d1097c29799a42228661f229bc2a"
+      }
+    },
+    "2.0.4": {
+      "prerelease": false,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "73b36e75eedcf949262707d9169a793a3901a0990306329163f3ac94df31d5fa",
+        "aarch64-linux": "87bb68fdd04ca90cd4cf54f8cd783a037fbf860b73d85e6697f6129dac49c683",
+        "i686-linux": "a6339dce56ef5dbe51848ca955daebdbec1a0afa761e1b5c6c990829c81f961d",
+        "x86_64-darwin": "79d29add23b2ca4144927b5d3d062ccd6f9345c5cdbf5b3624652ea9a5100261",
+        "x86_64-linux": "7429e7d85f8ef29df063701c49420f7984a0ae2c8511c026cc75edfbbb2df387"
       }
     }
   }

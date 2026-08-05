@@ -239,12 +239,12 @@
   },
   "vault": {
     "latest": {
-      "aarch64-darwin": "2.0.3",
-      "aarch64-linux": "2.0.3",
+      "aarch64-darwin": "2.0.4",
+      "aarch64-linux": "2.0.4",
       "armv7l-linux": "1.21.1",
-      "i686-linux": "2.0.3",
-      "x86_64-darwin": "2.0.3",
-      "x86_64-linux": "2.0.3"
+      "i686-linux": "2.0.4",
+      "x86_64-darwin": "2.0.4",
+      "x86_64-linux": "2.0.4"
     },
     "latestPrerelease": {
       "aarch64-darwin": "2.0.0-rc1",
@@ -257,10 +257,10 @@
   },
   "vault-radar": {
     "latest": {
-      "aarch64-darwin": "0.51.0",
-      "aarch64-linux": "0.51.0",
-      "x86_64-darwin": "0.51.0",
-      "x86_64-linux": "0.51.0"
+      "aarch64-darwin": "0.52.0",
+      "aarch64-linux": "0.52.0",
+      "x86_64-darwin": "0.52.0",
+      "x86_64-linux": "0.52.0"
     }
   },
   "vlt": {
