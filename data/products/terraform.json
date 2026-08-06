@@ -467,6 +467,7 @@
     "1.16.0-alpha20260708",
     "1.16.0-alpha20260715",
     "1.16.0-beta1",
+    "1.16.0-beta2",
     "1.17.0-alpha20260729"
   ],
   "unavailable": [
@@ -4099,6 +4100,18 @@
         "i686-linux": "deafc28b6140fed08096394432e7356baea1688f1734f8097a3853403907b648",
         "x86_64-darwin": "e59e577910881197ffacb0fee072cb594ddd19ae09a4f0aafb3f5c71d5b67e0f",
         "x86_64-linux": "3dac0967fffde50d8c863db4625287b467159e2fea8f21cd27c44752efa49b90"
+      }
+    },
+    "1.16.0-beta2": {
+      "prerelease": true,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "98c252da7f470bd7d9a0a6c4815299bddf0c7a25cb6bc3fa0cfda755fd821e8e",
+        "aarch64-linux": "ff75b20f974ecb0528ea233caefec2f976e88b0266c648f7dcc5f1644fdcbd1d",
+        "armv7l-linux": "62d2f889dde0dc4b88c72d9351d5f0d0a0fab7ac7c96ad8e3d3decd230aac8e9",
+        "i686-linux": "23c99d8b962fd9c0dc277abccf022fc91228a85e9ad0de02b8320b915b68abc3",
+        "x86_64-darwin": "2443413ff96bc9c2eef5d32b88605c412405844848f33700fbaa0a6aed33fe0f",
+        "x86_64-linux": "dcedc40978949fdb09c6204dd9ddbd7bb2ef87d2f73a772aef4ba0e8de275ffd"
       }
     },
     "1.17.0-alpha20260729": {
