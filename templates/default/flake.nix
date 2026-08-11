@@ -4,6 +4,8 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
+    flake-utils.url = "github:numtide/flake-utils";
+
     hashicorp-tools = {
       url = "github:jen20/nix-hashicorp-tools";
       # The overlay builds against whichever nixpkgs it is applied to, so this
@@ -16,35 +18,23 @@
   outputs =
     {
       nixpkgs,
+      flake-utils,
       hashicorp-tools,
       ...
     }:
-    let
-      systems = [
-        "x86_64-linux"
-        "aarch64-linux"
-        "x86_64-darwin"
-        "aarch64-darwin"
-      ];
-
-      forEachSystem =
-        f:
-        nixpkgs.lib.genAttrs systems (
-          system:
-          f (
-            import nixpkgs {
-              inherit system;
-              overlays = [ hashicorp-tools.overlays.default ];
-              # Terraform, Vault, Consul, Nomad, Packer and Boundary have been
-              # BUSL licensed since 2023, which nixpkgs treats as unfree.
-              config.allowUnfree = true;
-            }
-          )
-        );
-    in
-    {
-      devShells = forEachSystem (pkgs: {
-        default = pkgs.mkShell {
+    flake-utils.lib.eachDefaultSystem (
+      system:
+      let
+        pkgs = import nixpkgs {
+          inherit system;
+          overlays = [ hashicorp-tools.overlays.default ];
+          # Terraform, Vault, Consul, Nomad, Packer and Boundary have been
+          # BUSL licensed since 2023, which nixpkgs treats as unfree.
+          config.allowUnfree = true;
+        };
+      in
+      {
+        devShells.default = pkgs.mkShell {
           packages = [
             # Pin an exact release...
             pkgs.hashicorp.terraform."1.9.8"
@@ -52,6 +42,6 @@
             pkgs.hashicorp.vault.latest
           ];
         };
-      });
-    };
+      }
+    );
 }
