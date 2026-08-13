@@ -5,12 +5,12 @@
   "mainProgram": "nomad",
   "sourceRepository": "https://github.com/hashicorp/nomad",
   "latest": {
-    "aarch64-darwin": "2.0.4",
-    "aarch64-linux": "2.0.4",
+    "aarch64-darwin": "2.0.5",
+    "aarch64-linux": "2.0.5",
     "armv7l-linux": "1.8.2",
     "i686-linux": "1.5.17",
-    "x86_64-darwin": "2.0.4",
-    "x86_64-linux": "2.0.4"
+    "x86_64-darwin": "2.0.5",
+    "x86_64-linux": "2.0.5"
   },
   "latestPrerelease": {
     "aarch64-darwin": "2.0.0-rc.1",
@@ -262,7 +262,8 @@
     "2.0.1",
     "2.0.2",
     "2.0.3",
-    "2.0.4"
+    "2.0.4",
+    "2.0.5"
   ],
   "unavailable": [
     "0.7.0-beta1",
@@ -2981,6 +2982,16 @@
         "aarch64-linux": "406354fcc7cb77d6169cdfec13dc15cd440dd6486f88d10d28c1d3b17a254bea",
         "x86_64-darwin": "65546d1d273723fd347c113dc8b59c695e28d6615d6e3bd7df6d6ee6ef7e9aee",
         "x86_64-linux": "f6b0d555f65de7d81ef3274d7d7dfcad6ff24d6e6214a806deb5c50b909e47b7"
+      }
+    },
+    "2.0.5": {
+      "prerelease": false,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "6074494a4d6d46933c7ee9c380b15f1e7c602e42c8148d15420ed32eb16c8cd4",
+        "aarch64-linux": "63186442061f3f86ec7d10615a91435779a84ed2bf6111bfcba3c0acf71dabb7",
+        "x86_64-darwin": "17475f2e3c6411ee68355e95845872fe2c30f336e6f31f3cb16c88990b98a13a",
+        "x86_64-linux": "6425e43967bb0b2b4979b0d06da9b06772848b658dae372f1256d51ddcfe53c3"
       }
     }
   }
