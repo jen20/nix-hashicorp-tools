@@ -193,12 +193,12 @@
   },
   "terraform": {
     "latest": {
-      "aarch64-darwin": "1.15.8",
-      "aarch64-linux": "1.15.8",
-      "armv7l-linux": "1.15.8",
-      "i686-linux": "1.15.8",
-      "x86_64-darwin": "1.15.8",
-      "x86_64-linux": "1.15.8"
+      "aarch64-darwin": "1.15.9",
+      "aarch64-linux": "1.15.9",
+      "armv7l-linux": "1.15.9",
+      "i686-linux": "1.15.9",
+      "x86_64-darwin": "1.15.9",
+      "x86_64-linux": "1.15.9"
     },
     "latestPrerelease": {
       "aarch64-darwin": "1.17.0-alpha20260812",
