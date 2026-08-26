@@ -229,8 +229,8 @@
   },
   "tfc-agent": {
     "latest": {
-      "aarch64-linux": "1.30.2",
-      "x86_64-linux": "1.30.2"
+      "aarch64-linux": "1.31.0",
+      "x86_64-linux": "1.31.0"
     },
     "latestPrerelease": {
       "aarch64-linux": "1.22.0-rc.1",
