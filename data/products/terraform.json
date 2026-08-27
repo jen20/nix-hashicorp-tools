@@ -5,12 +5,12 @@
   "mainProgram": "terraform",
   "sourceRepository": "https://github.com/hashicorp/terraform",
   "latest": {
-    "aarch64-darwin": "1.15.9",
-    "aarch64-linux": "1.15.9",
-    "armv7l-linux": "1.15.9",
-    "i686-linux": "1.15.9",
-    "x86_64-darwin": "1.15.9",
-    "x86_64-linux": "1.15.9"
+    "aarch64-darwin": "1.16.0",
+    "aarch64-linux": "1.16.0",
+    "armv7l-linux": "1.16.0",
+    "i686-linux": "1.16.0",
+    "x86_64-darwin": "1.16.0",
+    "x86_64-linux": "1.16.0"
   },
   "latestPrerelease": {
     "aarch64-darwin": "1.17.0-alpha20260812",
@@ -471,6 +471,7 @@
     "1.16.0-beta2",
     "1.16.0-rc1",
     "1.16.0-rc2",
+    "1.16.0",
     "1.17.0-alpha20260729",
     "1.17.0-alpha20260812"
   ],
@@ -3996,6 +3997,18 @@
         "i686-linux": "5caaa32a7099dd40efb43679e3921095b665edd277b3c4be82e65a83f2e4fc84",
         "x86_64-darwin": "3e97c499fac8074adfa3760300662a0158f2fd325144965dd0028deec4086c6b",
         "x86_64-linux": "76edd0b22d2f27d3d2e097cd793209646f719cf60f02ff3af626b07361137da1"
+      }
+    },
+    "1.16.0": {
+      "prerelease": false,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "5dd692c6cc76b596029ff3c2b2b4c3a1710f92d3de6d2da3f66bd2e0c2daa92a",
+        "aarch64-linux": "60f86cea49a653e22a93c000f16cbfa391ce41c6f6a11d36557c35da411f684c",
+        "armv7l-linux": "ae6f7a891fa7d65b30d7c1cebcd02b2ea2998632ec3def200b4fb9d3d3f135c9",
+        "i686-linux": "1a61829dea3bb5194433f8a44619cd696817706fb4e2d67caaa56aa0bdc6bde3",
+        "x86_64-darwin": "2b2b7d37f6893474fa3622fa96053e54949c4ddfca4aba105380718157936465",
+        "x86_64-linux": "41d05b927aa174f15d1228c4eba832a323b716c68b415ef5a00179f46cc602d3"
       }
     },
     "1.16.0-alpha20260513": {
