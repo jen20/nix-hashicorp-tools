@@ -201,12 +201,12 @@
       "x86_64-linux": "1.16.0"
     },
     "latestPrerelease": {
-      "aarch64-darwin": "1.17.0-alpha20260812",
-      "aarch64-linux": "1.17.0-alpha20260812",
-      "armv7l-linux": "1.17.0-alpha20260812",
-      "i686-linux": "1.17.0-alpha20260812",
-      "x86_64-darwin": "1.17.0-alpha20260812",
-      "x86_64-linux": "1.17.0-alpha20260812"
+      "aarch64-darwin": "1.17.0-alpha20260827",
+      "aarch64-linux": "1.17.0-alpha20260827",
+      "armv7l-linux": "1.17.0-alpha20260827",
+      "i686-linux": "1.17.0-alpha20260827",
+      "x86_64-darwin": "1.17.0-alpha20260827",
+      "x86_64-linux": "1.17.0-alpha20260827"
     }
   },
   "terraform-ls": {
