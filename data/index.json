@@ -229,8 +229,8 @@
   },
   "tfc-agent": {
     "latest": {
-      "aarch64-linux": "1.31.0",
-      "x86_64-linux": "1.31.0"
+      "aarch64-linux": "1.31.1",
+      "x86_64-linux": "1.31.1"
     },
     "latestPrerelease": {
       "aarch64-linux": "1.22.0-rc.1",
@@ -239,12 +239,12 @@
   },
   "vault": {
     "latest": {
-      "aarch64-darwin": "2.0.4",
-      "aarch64-linux": "2.0.4",
+      "aarch64-darwin": "2.1.0",
+      "aarch64-linux": "2.1.0",
       "armv7l-linux": "1.21.1",
-      "i686-linux": "2.0.4",
-      "x86_64-darwin": "2.0.4",
-      "x86_64-linux": "2.0.4"
+      "i686-linux": "2.1.0",
+      "x86_64-darwin": "2.1.0",
+      "x86_64-linux": "2.1.0"
     },
     "latestPrerelease": {
       "aarch64-darwin": "2.0.0-rc1",
