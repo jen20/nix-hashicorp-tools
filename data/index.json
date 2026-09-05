@@ -257,10 +257,10 @@
   },
   "vault-radar": {
     "latest": {
-      "aarch64-darwin": "0.52.0",
-      "aarch64-linux": "0.52.0",
-      "x86_64-darwin": "0.52.0",
-      "x86_64-linux": "0.52.0"
+      "aarch64-darwin": "0.53.0",
+      "aarch64-linux": "0.53.0",
+      "x86_64-darwin": "0.53.0",
+      "x86_64-linux": "0.53.0"
     }
   },
   "vlt": {
