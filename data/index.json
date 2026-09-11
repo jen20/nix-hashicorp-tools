@@ -11,12 +11,12 @@
   },
   "consul": {
     "latest": {
-      "aarch64-darwin": "2.0.3",
-      "aarch64-linux": "2.0.3",
-      "armv7l-linux": "2.0.3",
-      "i686-linux": "2.0.3",
-      "x86_64-darwin": "2.0.3",
-      "x86_64-linux": "2.0.3"
+      "aarch64-darwin": "2.0.4",
+      "aarch64-linux": "2.0.4",
+      "armv7l-linux": "2.0.4",
+      "i686-linux": "2.0.4",
+      "x86_64-darwin": "2.0.4",
+      "x86_64-linux": "2.0.4"
     },
     "latestPrerelease": {
       "aarch64-darwin": "2.0.0-rc2",
@@ -29,12 +29,12 @@
   },
   "consul-template": {
     "latest": {
-      "aarch64-darwin": "0.42.1",
-      "aarch64-linux": "0.42.1",
-      "armv7l-linux": "0.42.1",
-      "i686-linux": "0.42.1",
-      "x86_64-darwin": "0.42.1",
-      "x86_64-linux": "0.42.1"
+      "aarch64-darwin": "0.43.0",
+      "aarch64-linux": "0.43.0",
+      "armv7l-linux": "0.43.0",
+      "i686-linux": "0.43.0",
+      "x86_64-darwin": "0.43.0",
+      "x86_64-linux": "0.43.0"
     }
   },
   "envconsul": {

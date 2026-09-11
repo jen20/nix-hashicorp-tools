@@ -4,12 +4,12 @@
   "mainProgram": "consul-template",
   "sourceRepository": "https://github.com/hashicorp/consul-template",
   "latest": {
-    "aarch64-darwin": "0.42.1",
-    "aarch64-linux": "0.42.1",
-    "armv7l-linux": "0.42.1",
-    "i686-linux": "0.42.1",
-    "x86_64-darwin": "0.42.1",
-    "x86_64-linux": "0.42.1"
+    "aarch64-darwin": "0.43.0",
+    "aarch64-linux": "0.43.0",
+    "armv7l-linux": "0.43.0",
+    "i686-linux": "0.43.0",
+    "x86_64-darwin": "0.43.0",
+    "x86_64-linux": "0.43.0"
   },
   "order": [
     "0.1.0",
@@ -99,7 +99,8 @@
     "0.41.3",
     "0.41.4",
     "0.42.0",
-    "0.42.1"
+    "0.42.1",
+    "0.43.0"
   ],
   "versions": {
     "0.1.0": {
@@ -973,6 +974,18 @@
         "i686-linux": "f9e2f0547332ab897b9d2d62e12bf0e0158eb1ebd18e05cbda8c1c1a852a3ad2",
         "x86_64-darwin": "e8d76a5161576c6235f0a60f712bc738f7428a5ebb308abf82d25dce847bac83",
         "x86_64-linux": "ab86817a4acf619c6612d99b8e11496a81027f2b84632887c941c3e7d43cbaa7"
+      }
+    },
+    "0.43.0": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-darwin": "c35c89e84d3b6ecf99a13c61267ecc259077ea24f8d498861695e8c4b4048c16",
+        "aarch64-linux": "c6d7fc056c54ea53dd5b543cda9958b5c7ba51208e62f9d5973ffcddd3d3be67",
+        "armv7l-linux": "37bfba774c059116553dd38f1daa0bc521747a9a00ca42e0cc279afed2304f67",
+        "i686-linux": "d6043fc03ab38360e728685aa2c8b0227183d100786afe504d06d936ca9d1e6c",
+        "x86_64-darwin": "a7cacd136ddc36d1453a1efc84992526ca9d65d909270478ee7175f96e876be0",
+        "x86_64-linux": "aa49f009a708f3e3beea990aa29cfaecfe6925c0b17ca9201747e1469922264e"
       }
     },
     "0.5.0": {
