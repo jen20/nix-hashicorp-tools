@@ -193,12 +193,12 @@
   },
   "terraform": {
     "latest": {
-      "aarch64-darwin": "1.16.2",
-      "aarch64-linux": "1.16.2",
-      "armv7l-linux": "1.16.2",
-      "i686-linux": "1.16.2",
-      "x86_64-darwin": "1.16.2",
-      "x86_64-linux": "1.16.2"
+      "aarch64-darwin": "1.16.3",
+      "aarch64-linux": "1.16.3",
+      "armv7l-linux": "1.16.3",
+      "i686-linux": "1.16.3",
+      "x86_64-darwin": "1.16.3",
+      "x86_64-linux": "1.16.3"
     },
     "latestPrerelease": {
       "aarch64-darwin": "1.17.0-beta1",
@@ -239,12 +239,12 @@
   },
   "vault": {
     "latest": {
-      "aarch64-darwin": "2.1.0",
-      "aarch64-linux": "2.1.0",
+      "aarch64-darwin": "2.1.1",
+      "aarch64-linux": "2.1.1",
       "armv7l-linux": "1.21.1",
-      "i686-linux": "2.1.0",
-      "x86_64-darwin": "2.1.0",
-      "x86_64-linux": "2.1.0"
+      "i686-linux": "2.1.1",
+      "x86_64-darwin": "2.1.1",
+      "x86_64-linux": "2.1.1"
     },
     "latestPrerelease": {
       "aarch64-darwin": "2.0.0-rc1",
