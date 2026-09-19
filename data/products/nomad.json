@@ -5,12 +5,12 @@
   "mainProgram": "nomad",
   "sourceRepository": "https://github.com/hashicorp/nomad",
   "latest": {
-    "aarch64-darwin": "2.0.6",
-    "aarch64-linux": "2.0.6",
+    "aarch64-darwin": "2.0.7",
+    "aarch64-linux": "2.0.7",
     "armv7l-linux": "1.8.2",
     "i686-linux": "1.5.17",
-    "x86_64-darwin": "2.0.6",
-    "x86_64-linux": "2.0.6"
+    "x86_64-darwin": "2.0.7",
+    "x86_64-linux": "2.0.7"
   },
   "latestPrerelease": {
     "aarch64-darwin": "2.0.0-rc.1",
@@ -118,6 +118,7 @@
     "1.1.7",
     "1.1.8",
     "1.1.9",
+    "1.1.10",
     "1.1.11",
     "1.1.12",
     "1.1.13",
@@ -263,7 +264,8 @@
     "2.0.3",
     "2.0.4",
     "2.0.5",
-    "2.0.6"
+    "2.0.6",
+    "2.0.7"
   ],
   "unavailable": [
     "0.7.0-beta1",
@@ -1259,6 +1261,17 @@
         "i686-linux": "4723fc187a4c944f170e37b0bccbdfddb9e26a24da5dbda0f581496aa590c438",
         "x86_64-darwin": "d239d388154eeda75d4f2826211753ad00adcf08c41eaf5a17628c2a778cbe9b",
         "x86_64-linux": "cbb4725e3e10b016b1682db8b0b54d1a1f60d84f0258aa488201dc71f20dc75c"
+      }
+    },
+    "1.1.10": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-linux": "09c49f3faf416062bf5c6197c94b7ca7226b67f9969c8d2198b7ac152677c254",
+        "armv7l-linux": "e3aec941c5aaf20d34141bb78a2fb59d3caeec66103817aa3635d9e4327fdedd",
+        "i686-linux": "3ab96e97610bdc9c73f794dc4b1652ca71f47f93fd1c383772aaa405acda8344",
+        "x86_64-darwin": "7976e12ff1e3ea9962701ea72a958c35bad6a7c2e54b870eab48f4d981cbb0b7",
+        "x86_64-linux": "87c7f4718a041aefed4ef4b44f2f0a26caba4c71be865268f39bb0e58d7dd763"
       }
     },
     "1.1.11": {
@@ -2991,6 +3004,16 @@
         "aarch64-linux": "6ccc4c25ec0b6b71c30af4df7ae3dfb3f7a0a05173555f94be452d072100cc52",
         "x86_64-darwin": "9aae239db6333d82ce2a3a4ea19f8f398c888dee229a21adaebe6e713b83aa96",
         "x86_64-linux": "c6da734081a41d51cadf15ec880d5eab0313093a29d2ee0984ca5ae1cdf867ec"
+      }
+    },
+    "2.0.7": {
+      "prerelease": false,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "4ada34db43f8b75c80c4e09ce50f4753e661bcb4a3745f415dd4aa7d01483e58",
+        "aarch64-linux": "19708097585efe0d60234f300b62892fa776ff93ca6ba5fb918360cbd118b71e",
+        "x86_64-darwin": "085a1c11cd2de2e5be490cbcc4213b1faaa0af45a4e121a55b2340dcef0d6286",
+        "x86_64-linux": "4c9b8a0850d6fd9caadbbab09b3e6fdf8b77aa777729543c70c61b85acca68c1"
       }
     }
   }

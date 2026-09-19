@@ -5,13 +5,13 @@
   "mainProgram": "packer",
   "sourceRepository": "https://github.com/hashicorp/packer",
   "latest": {
-    "aarch64-darwin": "1.16.0",
-    "aarch64-linux": "1.16.0",
-    "armv7l-linux": "1.16.0",
-    "i686-linux": "1.16.0",
-    "powerpc64le-linux": "1.16.0",
-    "x86_64-darwin": "1.16.0",
-    "x86_64-linux": "1.16.0"
+    "aarch64-darwin": "1.16.1",
+    "aarch64-linux": "1.16.1",
+    "armv7l-linux": "1.16.1",
+    "i686-linux": "1.16.1",
+    "powerpc64le-linux": "1.16.1",
+    "x86_64-darwin": "1.16.1",
+    "x86_64-linux": "1.16.1"
   },
   "latestPrerelease": {
     "aarch64-darwin": "1.12.0-alpha1",
@@ -161,7 +161,8 @@
     "1.15.2",
     "1.15.3",
     "1.15.4",
-    "1.16.0"
+    "1.16.0",
+    "1.16.1"
   ],
   "versions": {
     "0.1.0": {
@@ -1055,6 +1056,19 @@
         "powerpc64le-linux": "9ce6e4906b203e9618e1777550cf9aad4ce53ceeb829bb3e5e19d58128aa82b7",
         "x86_64-darwin": "64c4aa9a3176f89496360843bc8747238c9ad32ddc68bc5281207ae342d45be9",
         "x86_64-linux": "5edcd14ab59b535040c512dbecd6ec9ef976a000b073c19d93e4c431c948581e"
+      }
+    },
+    "1.16.1": {
+      "prerelease": false,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "c45cb1f851971e8a340c4a36434273cf2c8ef0cc7f5b3ac65588a3539b1df424",
+        "aarch64-linux": "4784ac0b9228a61f3ecb3861dbf0bf9ebeab6ddb0f5a10466126b8daa5db0de5",
+        "armv7l-linux": "dfb61912e59912f7d559a1f2b7bdf9fad702ae0a86226d87a8cee04a981a08b7",
+        "i686-linux": "7d1c701d0e178a4b16157350bb7323e278a67d623a32d230b9afd04b65c5c6f2",
+        "powerpc64le-linux": "0c91500e3b107fa5c8c2be51346c96870b49433eb86797227381a1a39f122e0c",
+        "x86_64-darwin": "e3655fb154e718526c3bcaacf327e6247e55945d2fefd59f84f535750f7ef5c4",
+        "x86_64-linux": "af38a9e93e4ed1b9ca68206ae969c64c300c82a3dde46a780dfa629f0867f651"
       }
     },
     "1.2.0": {
