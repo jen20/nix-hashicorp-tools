@@ -4,10 +4,10 @@
   "mainProgram": "vault-radar",
   "sourceRepository": "https://github/hashicorp/vault-scanning-and-insights-cli",
   "latest": {
-    "aarch64-darwin": "0.53.0",
-    "aarch64-linux": "0.53.0",
-    "x86_64-darwin": "0.53.0",
-    "x86_64-linux": "0.53.0"
+    "aarch64-darwin": "0.54.0",
+    "aarch64-linux": "0.54.0",
+    "x86_64-darwin": "0.54.0",
+    "x86_64-linux": "0.54.0"
   },
   "order": [
     "0.11.0",
@@ -54,7 +54,8 @@
     "0.50.0",
     "0.51.0",
     "0.52.0",
-    "0.53.0"
+    "0.53.0",
+    "0.54.0"
   ],
   "versions": {
     "0.11.0": {
@@ -505,6 +506,16 @@
         "aarch64-linux": "00f0ef9d99f0e2af0c85e0fbc8894d837239d6aa9fea70256bba8f64090d7cd5",
         "x86_64-darwin": "f732c0eebe20151004311910ab767e6947037b82d3ed0f93a0789693d9f8012f",
         "x86_64-linux": "e89a9764fcb687fff627b34c13d5b2295c2bc899e945d15c203c81e58c6c5055"
+      }
+    },
+    "0.54.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-darwin": "90d04f9bdf006461c2d293af1e2740cf91a5e7e538bf0f86e9c37855c022788a",
+        "aarch64-linux": "74acb658d922ffd7d885a0732f1a4823fee070dab7cc372d9dd5ac5028788b4d",
+        "x86_64-darwin": "ce073f3eaa7951de9b99d842f7398d55c64f2b79618172c846115733882f4365",
+        "x86_64-linux": "016518b693ac67613dfcebd946f3962b8bd1cbd256da0a2b50083e85cf6d8c87"
       }
     }
   }
