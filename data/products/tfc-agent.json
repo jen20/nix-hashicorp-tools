@@ -4,8 +4,8 @@
   "homepage": "https://www.terraform.io/cloud-docs/agents",
   "mainProgram": "tfc-agent",
   "latest": {
-    "aarch64-linux": "1.31.1",
-    "x86_64-linux": "1.31.1"
+    "aarch64-linux": "1.32.0",
+    "x86_64-linux": "1.32.0"
   },
   "latestPrerelease": {
     "aarch64-linux": "1.22.0-rc.1",
@@ -145,7 +145,8 @@
     "1.30.1",
     "1.30.2",
     "1.31.0",
-    "1.31.1"
+    "1.31.1",
+    "1.32.0"
   ],
   "versions": {
     "0.1.0": {
@@ -1024,6 +1025,14 @@
       "platforms": {
         "aarch64-linux": "c8114c21bd8f3d7009732df49c5abb668ce0be0c1cd2011becc31e376613b11c",
         "x86_64-linux": "e64f90a83986257da4e5ee6b571216730ec41bfea8c9fb725630ad2ea1f9e242"
+      }
+    },
+    "1.32.0": {
+      "prerelease": false,
+      "license": "unfree",
+      "platforms": {
+        "aarch64-linux": "6273a0f63288b369688c96841903e106671c78d4a94a8f5aa4f8a0c02f0ad004",
+        "x86_64-linux": "2592b91bd96a6db9aea777195c4b5ccef7667889dd56327c5c97efeabd7e25d4"
       }
     },
     "1.4.0": {
