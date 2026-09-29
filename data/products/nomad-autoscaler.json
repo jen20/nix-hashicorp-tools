@@ -5,12 +5,12 @@
   "mainProgram": "nomad-autoscaler",
   "sourceRepository": "https://github.com/hashicorp/nomad-autoscaler",
   "latest": {
-    "aarch64-darwin": "0.5.0",
-    "aarch64-linux": "0.5.0",
+    "aarch64-darwin": "0.6.0",
+    "aarch64-linux": "0.6.0",
     "armv7l-linux": "0.4.4",
     "i686-linux": "0.4.4",
-    "x86_64-darwin": "0.5.0",
-    "x86_64-linux": "0.5.0"
+    "x86_64-darwin": "0.6.0",
+    "x86_64-linux": "0.6.0"
   },
   "latestPrerelease": {
     "aarch64-darwin": "0.4.0-rc.1",
@@ -50,7 +50,8 @@
     "0.4.7",
     "0.4.8",
     "0.4.9",
-    "0.5.0"
+    "0.5.0",
+    "0.6.0"
   ],
   "versions": {
     "0.0.1-techpreview1": {
@@ -383,6 +384,16 @@
         "aarch64-linux": "910627db8032a790251e3fcf88318eff4aa5af77e602a4e8d8c3dcc96fc00da7",
         "x86_64-darwin": "70ed6159288161d7e838cbeeb0fbc18427907b4c07d7c6ff0933469c0dd7a03e",
         "x86_64-linux": "45ef1905a44cf24f15e08c31f437ad5df7e55996eea91b313b0f2c5654ed1030"
+      }
+    },
+    "0.6.0": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-darwin": "a3b777f7781a6779991f75cfb54a045f3302b17f4c436c99531da698384664e7",
+        "aarch64-linux": "7625e88717b6a4bc0ef3fbb6b77b33df562af3fefd7244e50c1064f295993821",
+        "x86_64-darwin": "5b9ce8b64f54c8b7071e4f1e0ea3e204498171fc1222529bbcbc5d182d1ce070",
+        "x86_64-linux": "1d404b456a36a477a8c8cf26de2f79c1ad13510d0b241036f056e0675addeb15"
       }
     }
   }
