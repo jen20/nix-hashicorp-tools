@@ -5,20 +5,20 @@
   "mainProgram": "vault",
   "sourceRepository": "https://github.com/hashicorp/vault",
   "latest": {
-    "aarch64-darwin": "2.1.1",
-    "aarch64-linux": "2.1.1",
+    "aarch64-darwin": "2.1.2",
+    "aarch64-linux": "2.1.2",
     "armv7l-linux": "1.21.1",
-    "i686-linux": "2.1.1",
-    "x86_64-darwin": "2.1.1",
-    "x86_64-linux": "2.1.1"
+    "i686-linux": "2.1.2",
+    "x86_64-darwin": "2.1.2",
+    "x86_64-linux": "2.1.2"
   },
   "latestPrerelease": {
-    "aarch64-darwin": "2.0.0-rc1",
-    "aarch64-linux": "2.0.0-rc1",
+    "aarch64-darwin": "2.2.0-rc1",
+    "aarch64-linux": "2.2.0-rc1",
     "armv7l-linux": "1.21.0-rc1",
-    "i686-linux": "2.0.0-rc1",
-    "x86_64-darwin": "2.0.0-rc1",
-    "x86_64-linux": "2.0.0-rc1"
+    "i686-linux": "2.2.0-rc1",
+    "x86_64-darwin": "2.2.0-rc1",
+    "x86_64-linux": "2.2.0-rc1"
   },
   "order": [
     "0.1.0",
@@ -303,7 +303,9 @@
     "2.0.3",
     "2.0.4",
     "2.1.0",
-    "2.1.1"
+    "2.1.1",
+    "2.1.2",
+    "2.2.0-rc1"
   ],
   "versions": {
     "0.1.0": {
@@ -3536,6 +3538,28 @@
         "i686-linux": "4e6219091ac1255663722e04e1d0a97c10ceab475afc8f8c9cb0e1fd71ef1b66",
         "x86_64-darwin": "1310ccba498a08fa9bfe09c698f54f38b6d9c2ae45bae08cf91f02bc10d295b6",
         "x86_64-linux": "8aa90f9cea46f541fc7baa3d0ec692fc06afde9a248cc1f2dcac46a567c6f56b"
+      }
+    },
+    "2.1.2": {
+      "prerelease": false,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "bdd5a4b5d4b5afe7a79ce629e41ddca6480068df8fe1d74665e681b27abd8001",
+        "aarch64-linux": "57c0c4d2f8c1694b18f26f922eca40e472355934dca2f3bd63f415042d1898ed",
+        "i686-linux": "755b989527bf57c6d6b3b928e6bf2eca173091f7ed3c35f50a23e574a8e95295",
+        "x86_64-darwin": "8a057a4e005113223f2d479a13ff6d9a781e9145db0327270c94d3ff14ed2af7",
+        "x86_64-linux": "873bbdac35ca4b0c3e2886c41991ca1272fc452826208d5499f32d12cd2e76e1"
+      }
+    },
+    "2.2.0-rc1": {
+      "prerelease": true,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "9d8b75a349b804c55ee0b1e97986f89cf9434edfde0edfc567a3dd59eaa8148c",
+        "aarch64-linux": "e01d757fd4e5c8fadb5794cf9e6959f84e543a7cf6c45cd773eb32f7941ea069",
+        "i686-linux": "57c59022c74595326191e2d51f644209531c52a40b274d084f10abcf0d041651",
+        "x86_64-darwin": "f82b47c1127b7df59cc0e4b517372d1bdabdabcd72ccb58ca224ee4d592f75e4",
+        "x86_64-linux": "8e5aa3dd4b10d4acc676d8ec357b587f97d498a431218672debcccc9518809df"
       }
     }
   }
