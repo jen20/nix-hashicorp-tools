@@ -5,20 +5,20 @@
   "mainProgram": "terraform",
   "sourceRepository": "https://github.com/hashicorp/terraform",
   "latest": {
-    "aarch64-darwin": "1.16.5",
-    "aarch64-linux": "1.16.5",
-    "armv7l-linux": "1.16.5",
-    "i686-linux": "1.16.5",
-    "x86_64-darwin": "1.16.5",
-    "x86_64-linux": "1.16.5"
+    "aarch64-darwin": "1.16.6",
+    "aarch64-linux": "1.16.6",
+    "armv7l-linux": "1.16.6",
+    "i686-linux": "1.16.6",
+    "x86_64-darwin": "1.16.6",
+    "x86_64-linux": "1.16.6"
   },
   "latestPrerelease": {
-    "aarch64-darwin": "1.17.0-rc1",
-    "aarch64-linux": "1.17.0-rc1",
-    "armv7l-linux": "1.17.0-rc1",
-    "i686-linux": "1.17.0-rc1",
-    "x86_64-darwin": "1.17.0-rc1",
-    "x86_64-linux": "1.17.0-rc1"
+    "aarch64-darwin": "1.17.0-rc2",
+    "aarch64-linux": "1.17.0-rc2",
+    "armv7l-linux": "1.17.0-rc2",
+    "i686-linux": "1.17.0-rc2",
+    "x86_64-darwin": "1.17.0-rc2",
+    "x86_64-linux": "1.17.0-rc2"
   },
   "order": [
     "0.1.0",
@@ -477,12 +477,14 @@
     "1.16.3",
     "1.16.4",
     "1.16.5",
+    "1.16.6",
     "1.17.0-alpha20260729",
     "1.17.0-alpha20260812",
     "1.17.0-alpha20260827",
     "1.17.0-beta1",
     "1.17.0-beta2",
-    "1.17.0-rc1"
+    "1.17.0-rc1",
+    "1.17.0-rc2"
   ],
   "unavailable": [
     "0.12.0-alpha3",
@@ -4236,6 +4238,18 @@
         "x86_64-linux": "2bc2fcfff033265c9e02ca0351f01794eb122f62a9b2a49a3294b9e49eaab5e4"
       }
     },
+    "1.16.6": {
+      "prerelease": false,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "85e1bc78ab45bdc5f82a7bac3929e37d072834a584d22583a2498dc67bb624cd",
+        "aarch64-linux": "a750b5a11038f165846b2658c40c88cd7070aa67a61bab431a14ba27928ea9ea",
+        "armv7l-linux": "d86a3f37fc60fd8d173d3c966957d8a0fa7c8ee131ee9ec100be8d06733c7728",
+        "i686-linux": "f1b81dd7e62117507717b8488fef260879d226e149a302031fa94a3cc2f7e875",
+        "x86_64-darwin": "794a36c3f7ebf6c58f2089c226068a539d1705ba358a5679b51671c8dc7ebc7b",
+        "x86_64-linux": "38034b38d03096399a7a1264a14561a8029b2b496fd1f169452656e53968f1b7"
+      }
+    },
     "1.17.0-alpha20260729": {
       "prerelease": true,
       "license": "bsl11",
@@ -4306,6 +4320,18 @@
         "i686-linux": "432392aaccf428cd7ad88d6f8969cd0d691f2157f050eb47a43768cfa8f6a498",
         "x86_64-darwin": "2af5acfaff2e3dc2f6c261b5155f30fbe4abae70d7e80f2b6f4e0af18d92e59b",
         "x86_64-linux": "638c3bd38348498b377c053569ecb8ccaadd2cc8a4dcf276e66381f3cb6fa29b"
+      }
+    },
+    "1.17.0-rc2": {
+      "prerelease": true,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "e5976d5de6a57790fd86c92713aaa3845ccf8cffa928d8475c27f23ceda29124",
+        "aarch64-linux": "12701a42172eeb512082131889384f4d8807bebb3df83b1438671ed37c544d63",
+        "armv7l-linux": "065c336ec969f868d128750af9d2e1ec41b0731ebacd3707ca17603e0e8c0f74",
+        "i686-linux": "11abbb06628669378b9db397653a832636cc893b6d8d38cb426df1b5dd0433e1",
+        "x86_64-darwin": "df0bddc92bdfe1fbabc60b7ae01ca786c2a53e6d3cc1b485b4b10a759bf0bf99",
+        "x86_64-linux": "033ddf75a8cd5787754710c76f0cd215355725bad3dcd52e951ad3708158716c"
       }
     },
     "1.2.0": {

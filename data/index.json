@@ -193,20 +193,20 @@
   },
   "terraform": {
     "latest": {
-      "aarch64-darwin": "1.16.5",
-      "aarch64-linux": "1.16.5",
-      "armv7l-linux": "1.16.5",
-      "i686-linux": "1.16.5",
-      "x86_64-darwin": "1.16.5",
-      "x86_64-linux": "1.16.5"
+      "aarch64-darwin": "1.16.6",
+      "aarch64-linux": "1.16.6",
+      "armv7l-linux": "1.16.6",
+      "i686-linux": "1.16.6",
+      "x86_64-darwin": "1.16.6",
+      "x86_64-linux": "1.16.6"
     },
     "latestPrerelease": {
-      "aarch64-darwin": "1.17.0-rc1",
-      "aarch64-linux": "1.17.0-rc1",
-      "armv7l-linux": "1.17.0-rc1",
-      "i686-linux": "1.17.0-rc1",
-      "x86_64-darwin": "1.17.0-rc1",
-      "x86_64-linux": "1.17.0-rc1"
+      "aarch64-darwin": "1.17.0-rc2",
+      "aarch64-linux": "1.17.0-rc2",
+      "armv7l-linux": "1.17.0-rc2",
+      "i686-linux": "1.17.0-rc2",
+      "x86_64-darwin": "1.17.0-rc2",
+      "x86_64-linux": "1.17.0-rc2"
     }
   },
   "terraform-ls": {
@@ -229,8 +229,8 @@
   },
   "tfc-agent": {
     "latest": {
-      "aarch64-linux": "1.33.0",
-      "x86_64-linux": "1.33.0"
+      "aarch64-linux": "1.33.1",
+      "x86_64-linux": "1.33.1"
     },
     "latestPrerelease": {
       "aarch64-linux": "1.22.0-rc.1",
