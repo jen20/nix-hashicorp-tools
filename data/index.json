@@ -239,12 +239,12 @@
   },
   "vault": {
     "latest": {
-      "aarch64-darwin": "2.1.2",
-      "aarch64-linux": "2.1.2",
+      "aarch64-darwin": "2.2.0",
+      "aarch64-linux": "2.2.0",
       "armv7l-linux": "1.21.1",
-      "i686-linux": "2.1.2",
-      "x86_64-darwin": "2.1.2",
-      "x86_64-linux": "2.1.2"
+      "i686-linux": "2.2.0",
+      "x86_64-darwin": "2.2.0",
+      "x86_64-linux": "2.2.0"
     },
     "latestPrerelease": {
       "aarch64-darwin": "2.2.0-rc1",
