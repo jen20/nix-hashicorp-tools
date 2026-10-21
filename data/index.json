@@ -102,12 +102,12 @@
       "x86_64-linux": "2.0.7"
     },
     "latestPrerelease": {
-      "aarch64-darwin": "2.0.0-rc.1",
-      "aarch64-linux": "2.0.0-rc.1",
+      "aarch64-darwin": "2.1.0-rc.1",
+      "aarch64-linux": "2.1.0-rc.1",
       "armv7l-linux": "1.8.0-rc.1",
       "i686-linux": "1.5.0-rc.1",
-      "x86_64-darwin": "2.0.0-rc.1",
-      "x86_64-linux": "2.0.0-rc.1"
+      "x86_64-darwin": "2.1.0-rc.1",
+      "x86_64-linux": "2.1.0-rc.1"
     }
   },
   "nomad-autoscaler": {

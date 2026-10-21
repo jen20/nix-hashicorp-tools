@@ -13,12 +13,12 @@
     "x86_64-linux": "2.0.7"
   },
   "latestPrerelease": {
-    "aarch64-darwin": "2.0.0-rc.1",
-    "aarch64-linux": "2.0.0-rc.1",
+    "aarch64-darwin": "2.1.0-rc.1",
+    "aarch64-linux": "2.1.0-rc.1",
     "armv7l-linux": "1.8.0-rc.1",
     "i686-linux": "1.5.0-rc.1",
-    "x86_64-darwin": "2.0.0-rc.1",
-    "x86_64-linux": "2.0.0-rc.1"
+    "x86_64-darwin": "2.1.0-rc.1",
+    "x86_64-linux": "2.1.0-rc.1"
   },
   "order": [
     "0.1.0",
@@ -265,7 +265,8 @@
     "2.0.4",
     "2.0.5",
     "2.0.6",
-    "2.0.7"
+    "2.0.7",
+    "2.1.0-rc.1"
   ],
   "unavailable": [
     "0.7.0-beta1",
@@ -3014,6 +3015,16 @@
         "aarch64-linux": "19708097585efe0d60234f300b62892fa776ff93ca6ba5fb918360cbd118b71e",
         "x86_64-darwin": "085a1c11cd2de2e5be490cbcc4213b1faaa0af45a4e121a55b2340dcef0d6286",
         "x86_64-linux": "4c9b8a0850d6fd9caadbbab09b3e6fdf8b77aa777729543c70c61b85acca68c1"
+      }
+    },
+    "2.1.0-rc.1": {
+      "prerelease": true,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "8db8832a9e2175f18fc8d8b1d0c6d65c0379965e1efb66d613cebde86fedf6ad",
+        "aarch64-linux": "3682e82c0774c1a824e85f62b266a0f97018f1485f5b3be3b5572fccb53903af",
+        "x86_64-darwin": "2a4ba1607d08ed4000c6c5eaab0182e2c2be14b8efb5003103f968ba2cef5e23",
+        "x86_64-linux": "710d90767255f9fe3d6b7a0de06d58312e0d588f17adf4b6d7bd56dbb9aef7e7"
       }
     }
   }
