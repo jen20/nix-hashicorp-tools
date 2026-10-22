@@ -29,12 +29,12 @@
   },
   "consul-template": {
     "latest": {
-      "aarch64-darwin": "0.43.0",
-      "aarch64-linux": "0.43.0",
-      "armv7l-linux": "0.43.0",
-      "i686-linux": "0.43.0",
-      "x86_64-darwin": "0.43.0",
-      "x86_64-linux": "0.43.0"
+      "aarch64-darwin": "0.43.1",
+      "aarch64-linux": "0.43.1",
+      "armv7l-linux": "0.43.1",
+      "i686-linux": "0.43.1",
+      "x86_64-darwin": "0.43.1",
+      "x86_64-linux": "0.43.1"
     }
   },
   "envconsul": {
@@ -193,12 +193,12 @@
   },
   "terraform": {
     "latest": {
-      "aarch64-darwin": "1.16.6",
-      "aarch64-linux": "1.16.6",
-      "armv7l-linux": "1.16.6",
-      "i686-linux": "1.16.6",
-      "x86_64-darwin": "1.16.6",
-      "x86_64-linux": "1.16.6"
+      "aarch64-darwin": "1.17.0",
+      "aarch64-linux": "1.17.0",
+      "armv7l-linux": "1.17.0",
+      "i686-linux": "1.17.0",
+      "x86_64-darwin": "1.17.0",
+      "x86_64-linux": "1.17.0"
     },
     "latestPrerelease": {
       "aarch64-darwin": "1.17.0-rc2",
@@ -229,8 +229,8 @@
   },
   "tfc-agent": {
     "latest": {
-      "aarch64-linux": "1.33.1",
-      "x86_64-linux": "1.33.1"
+      "aarch64-linux": "1.33.2",
+      "x86_64-linux": "1.33.2"
     },
     "latestPrerelease": {
       "aarch64-linux": "1.22.0-rc.1",
@@ -257,10 +257,10 @@
   },
   "vault-radar": {
     "latest": {
-      "aarch64-darwin": "0.55.0",
-      "aarch64-linux": "0.55.0",
-      "x86_64-darwin": "0.55.0",
-      "x86_64-linux": "0.55.0"
+      "aarch64-darwin": "0.55.1",
+      "aarch64-linux": "0.55.1",
+      "x86_64-darwin": "0.55.1",
+      "x86_64-linux": "0.55.1"
     }
   },
   "vlt": {
