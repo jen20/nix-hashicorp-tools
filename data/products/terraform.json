@@ -478,6 +478,7 @@
     "1.16.4",
     "1.16.5",
     "1.16.6",
+    "1.16.7",
     "1.17.0-alpha20260729",
     "1.17.0-alpha20260812",
     "1.17.0-alpha20260827",
@@ -4249,6 +4250,18 @@
         "i686-linux": "f1b81dd7e62117507717b8488fef260879d226e149a302031fa94a3cc2f7e875",
         "x86_64-darwin": "794a36c3f7ebf6c58f2089c226068a539d1705ba358a5679b51671c8dc7ebc7b",
         "x86_64-linux": "38034b38d03096399a7a1264a14561a8029b2b496fd1f169452656e53968f1b7"
+      }
+    },
+    "1.16.7": {
+      "prerelease": false,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "81e98d9186e0cd1bc88caeb2403453fdd4bdeedd574ca4dbe8fb6a2880c9c51a",
+        "aarch64-linux": "2d6a3f1098de94f1672aaa4e6873ef91ade9eac38851d3a403e2009193208de4",
+        "armv7l-linux": "4a0a478c5d62aa775d6136942f84f87c3557df01283c869ef2ceba2baa389510",
+        "i686-linux": "8b44e5e21ff8c4961190e6e08061f4ba232f51efaa1f13aac56680bdd78f7a3d",
+        "x86_64-darwin": "d17d1053bcbde650a8a919b7218ef2886eac76c474306e9ecd8bd64427408741",
+        "x86_64-linux": "5454efcf7fc87f0c2113111b9a5c7182f0ca1c6f0f23a1e110a50770a8fe473b"
       }
     },
     "1.17.0": {

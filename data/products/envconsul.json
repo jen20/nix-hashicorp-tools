@@ -4,12 +4,12 @@
   "mainProgram": "envconsul",
   "sourceRepository": "https://github.com/hashicorp/envconsul",
   "latest": {
-    "aarch64-darwin": "0.14.0",
-    "aarch64-linux": "0.14.0",
-    "armv7l-linux": "0.14.0",
-    "i686-linux": "0.14.0",
-    "x86_64-darwin": "0.14.0",
-    "x86_64-linux": "0.14.0"
+    "aarch64-darwin": "0.14.1",
+    "aarch64-linux": "0.14.1",
+    "armv7l-linux": "0.14.1",
+    "i686-linux": "0.14.1",
+    "x86_64-darwin": "0.14.1",
+    "x86_64-linux": "0.14.1"
   },
   "order": [
     "0.1.0",
@@ -38,7 +38,8 @@
     "0.13.2",
     "0.13.3",
     "0.13.4",
-    "0.14.0"
+    "0.14.0",
+    "0.14.1"
   ],
   "versions": {
     "0.1.0": {
@@ -165,6 +166,18 @@
         "i686-linux": "11c15c8da3d6f4faa796befdc50ba370d6d99d10d9e08c2cc053cd4282258e3f",
         "x86_64-darwin": "068c5f0850ce8a29ab1e37a02d79e5d8317bcdf1e1e8dd8de38f7f62061a18d5",
         "x86_64-linux": "d7b1d4395ce9b465b6e635c9bd8ec70b852de5553fa0b9ecd07829323cf9ead1"
+      }
+    },
+    "0.14.1": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-darwin": "c447ad7993ae9fec5d99c6b32515d3ad0bc3f27ccb9bb81d6c882592e9a03ceb",
+        "aarch64-linux": "92544657444a36883bf36fe0b81b4aa826a6ff65532d72186f6aff5eba8561dd",
+        "armv7l-linux": "e45719f2263661839a58afb6cffb9da65ff1658bba0bb1e4aac8a156c4142e8e",
+        "i686-linux": "ea939c24a431b72eada9236b4e3cff3805b8bc300618bb4b88e61cb8825cc9ff",
+        "x86_64-darwin": "5753301d22c69c4920b8f1c65d2a33275a1477d6e485391c0a38b09c5845e310",
+        "x86_64-linux": "e975c6628207d4efc08ad218664357197da7098b928c1c21fdce1b4a694aea4c"
       }
     },
     "0.2.0": {

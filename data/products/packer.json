@@ -5,13 +5,13 @@
   "mainProgram": "packer",
   "sourceRepository": "https://github.com/hashicorp/packer",
   "latest": {
-    "aarch64-darwin": "1.16.1",
-    "aarch64-linux": "1.16.1",
-    "armv7l-linux": "1.16.1",
-    "i686-linux": "1.16.1",
-    "powerpc64le-linux": "1.16.1",
-    "x86_64-darwin": "1.16.1",
-    "x86_64-linux": "1.16.1"
+    "aarch64-darwin": "1.16.2",
+    "aarch64-linux": "1.16.2",
+    "armv7l-linux": "1.16.2",
+    "i686-linux": "1.16.2",
+    "powerpc64le-linux": "1.16.2",
+    "x86_64-darwin": "1.16.2",
+    "x86_64-linux": "1.16.2"
   },
   "latestPrerelease": {
     "aarch64-darwin": "1.12.0-alpha1",
@@ -162,7 +162,8 @@
     "1.15.3",
     "1.15.4",
     "1.16.0",
-    "1.16.1"
+    "1.16.1",
+    "1.16.2"
   ],
   "versions": {
     "0.1.0": {
@@ -1069,6 +1070,19 @@
         "powerpc64le-linux": "0c91500e3b107fa5c8c2be51346c96870b49433eb86797227381a1a39f122e0c",
         "x86_64-darwin": "e3655fb154e718526c3bcaacf327e6247e55945d2fefd59f84f535750f7ef5c4",
         "x86_64-linux": "af38a9e93e4ed1b9ca68206ae969c64c300c82a3dde46a780dfa629f0867f651"
+      }
+    },
+    "1.16.2": {
+      "prerelease": false,
+      "license": "bsl11",
+      "platforms": {
+        "aarch64-darwin": "3d7e4df8e7e8c21bdf495c4f63ad9189e22540dc8126dee6db791aa8519e8b3a",
+        "aarch64-linux": "5d7d6de86a49b2d64f3c0eef5766855b580e10a7c45bd6605ba8f1dead7815ea",
+        "armv7l-linux": "5985e8a757d3814b5eddb9b9c93b45a2e48bf1e509925a0e43030c17d55c201a",
+        "i686-linux": "ef50a456a17681dac22eef1224ee088dfd22139b9f89e0d661c982be46c467b9",
+        "powerpc64le-linux": "dd8451f8e32a6ae8d3eea242f1a879f1b3ea46edd8c4b2fc6f48116f5f0ef048",
+        "x86_64-darwin": "cca17e6889754c8f6e9d9a2646a9f9cc650a70dfdafc8e7da7e5279977b7d812",
+        "x86_64-linux": "abbfe0cf74985084112659b53e3565f264f70a20914c3b7c4f789f54f61c2414"
       }
     },
     "1.2.0": {
