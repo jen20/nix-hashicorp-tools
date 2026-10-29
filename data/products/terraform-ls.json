@@ -4,12 +4,12 @@
   "mainProgram": "terraform-ls",
   "sourceRepository": "https://github.com/hashicorp/terraform-ls",
   "latest": {
-    "aarch64-darwin": "0.39.0",
-    "aarch64-linux": "0.39.0",
-    "armv7l-linux": "0.39.0",
-    "i686-linux": "0.39.0",
-    "x86_64-darwin": "0.39.0",
-    "x86_64-linux": "0.39.0"
+    "aarch64-darwin": "0.39.1",
+    "aarch64-linux": "0.39.1",
+    "armv7l-linux": "0.39.1",
+    "i686-linux": "0.39.1",
+    "x86_64-darwin": "0.39.1",
+    "x86_64-linux": "0.39.1"
   },
   "latestPrerelease": {
     "aarch64-darwin": "0.39.0-beta5",
@@ -131,7 +131,8 @@
     "0.39.0-beta3",
     "0.39.0-beta4",
     "0.39.0-beta5",
-    "0.39.0"
+    "0.39.0",
+    "0.39.1"
   ],
   "versions": {
     "0.10.0": {
@@ -1317,6 +1318,18 @@
         "i686-linux": "aaf0c9f72a8a2bccd04df96eb555c79ea130d125bfdc9712048c5e70a230a8c4",
         "x86_64-darwin": "36e0646d231a4942e20665c5f0ee03e3c7e5d0cdb78d00a23b9bafc152d445e6",
         "x86_64-linux": "e8ddba91389250e50cd8500aefff37563608a943a0c44456c94a67efc58a04d8"
+      }
+    },
+    "0.39.1": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-darwin": "07748aa989fc3b9f6e4538ff83bc2e607ebc20c7587ce6556ae555d631e70b1b",
+        "aarch64-linux": "a72a6d9f72580cfc30cc06d3c973fd5f55790f62e3ddb195998435070d9af36d",
+        "armv7l-linux": "f9c1061228fca242177851843a0791254a133e726b4de676fd9aa53fd7197e21",
+        "i686-linux": "20b2a4147f4846bcf24e4730eef652732798a90a6da44f5ebe992928115e80e3",
+        "x86_64-darwin": "25814afdbec9163de4ad8db58960195b9fc65ddc5405a5df7163bbdbd08b5325",
+        "x86_64-linux": "fe2a158e4a1a8ec8047dae9e06c439b468412aa579929ba28b2e1258cedef9c0"
       }
     },
     "0.4.0": {

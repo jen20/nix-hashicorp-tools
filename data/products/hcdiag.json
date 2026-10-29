@@ -4,12 +4,12 @@
   "mainProgram": "hcdiag",
   "sourceRepository": "https://github.com/hashicorp/hcdiag/",
   "latest": {
-    "aarch64-darwin": "0.5.13",
-    "aarch64-linux": "0.5.13",
-    "armv7l-linux": "0.5.13",
-    "i686-linux": "0.5.13",
-    "x86_64-darwin": "0.5.13",
-    "x86_64-linux": "0.5.13"
+    "aarch64-darwin": "0.5.15",
+    "aarch64-linux": "0.5.15",
+    "armv7l-linux": "0.5.15",
+    "i686-linux": "0.5.15",
+    "x86_64-darwin": "0.5.15",
+    "x86_64-linux": "0.5.15"
   },
   "latestPrerelease": {
     "aarch64-darwin": "0.5.3-rc0",
@@ -52,7 +52,8 @@
     "0.5.10",
     "0.5.11",
     "0.5.12",
-    "0.5.13"
+    "0.5.13",
+    "0.5.15"
   ],
   "versions": {
     "0.1.0": {
@@ -323,6 +324,18 @@
         "i686-linux": "6145031b60bfada7bd486bb49418522a841e7fad60e3f1d26a03ea4882e36a44",
         "x86_64-darwin": "28f58db0239b4d4ff2259f2591b9e461410522e0a5963ab9b747ef8023f41495",
         "x86_64-linux": "856c86e3f208775ea8982aa76754fd38f192762541225aa3fc127fd19743bb8a"
+      }
+    },
+    "0.5.15": {
+      "prerelease": false,
+      "license": "mpl20",
+      "platforms": {
+        "aarch64-darwin": "64bf39f2091692da6e6cb593254fb32bb44c933a3a80ac43165d7a84a987e0f1",
+        "aarch64-linux": "edeb3fae2f487858933fb2155880f7883ee602c74fc8d58a073877b513146c10",
+        "armv7l-linux": "1084e22e00959bf861997a15c7f27e4403fb3b1c4d1214306357a2734349bfd9",
+        "i686-linux": "c788d6fad09443cb81ce6b4c7439754824cf59b3e61f203934fc3ffcdd31459a",
+        "x86_64-darwin": "08b28ccabff23637f5595e2e771f09fe0ea7f69100f52d5aa67a15184f935051",
+        "x86_64-linux": "f9f05208f03039228a69b4838e4752bc6c46c176d20828227cb37651f77b58da"
       }
     },
     "0.5.2": {

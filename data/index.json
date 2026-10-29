@@ -49,12 +49,12 @@
   },
   "hcdiag": {
     "latest": {
-      "aarch64-darwin": "0.5.13",
-      "aarch64-linux": "0.5.13",
-      "armv7l-linux": "0.5.13",
-      "i686-linux": "0.5.13",
-      "x86_64-darwin": "0.5.13",
-      "x86_64-linux": "0.5.13"
+      "aarch64-darwin": "0.5.15",
+      "aarch64-linux": "0.5.15",
+      "armv7l-linux": "0.5.15",
+      "i686-linux": "0.5.15",
+      "x86_64-darwin": "0.5.15",
+      "x86_64-linux": "0.5.15"
     },
     "latestPrerelease": {
       "aarch64-darwin": "0.5.3-rc0",
@@ -94,12 +94,12 @@
   },
   "nomad": {
     "latest": {
-      "aarch64-darwin": "2.0.7",
-      "aarch64-linux": "2.0.7",
+      "aarch64-darwin": "2.1.0",
+      "aarch64-linux": "2.1.0",
       "armv7l-linux": "1.8.2",
       "i686-linux": "1.5.17",
-      "x86_64-darwin": "2.0.7",
-      "x86_64-linux": "2.0.7"
+      "x86_64-darwin": "2.1.0",
+      "x86_64-linux": "2.1.0"
     },
     "latestPrerelease": {
       "aarch64-darwin": "2.1.0-rc.1",
@@ -193,12 +193,12 @@
   },
   "terraform": {
     "latest": {
-      "aarch64-darwin": "1.17.0",
-      "aarch64-linux": "1.17.0",
-      "armv7l-linux": "1.17.0",
-      "i686-linux": "1.17.0",
-      "x86_64-darwin": "1.17.0",
-      "x86_64-linux": "1.17.0"
+      "aarch64-darwin": "1.17.1",
+      "aarch64-linux": "1.17.1",
+      "armv7l-linux": "1.17.1",
+      "i686-linux": "1.17.1",
+      "x86_64-darwin": "1.17.1",
+      "x86_64-linux": "1.17.1"
     },
     "latestPrerelease": {
       "aarch64-darwin": "1.17.0-rc2",
@@ -211,12 +211,12 @@
   },
   "terraform-ls": {
     "latest": {
-      "aarch64-darwin": "0.39.0",
-      "aarch64-linux": "0.39.0",
-      "armv7l-linux": "0.39.0",
-      "i686-linux": "0.39.0",
-      "x86_64-darwin": "0.39.0",
-      "x86_64-linux": "0.39.0"
+      "aarch64-darwin": "0.39.1",
+      "aarch64-linux": "0.39.1",
+      "armv7l-linux": "0.39.1",
+      "i686-linux": "0.39.1",
+      "x86_64-darwin": "0.39.1",
+      "x86_64-linux": "0.39.1"
     },
     "latestPrerelease": {
       "aarch64-darwin": "0.39.0-beta5",
