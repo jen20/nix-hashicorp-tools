@@ -94,12 +94,12 @@
   },
   "nomad": {
     "latest": {
-      "aarch64-darwin": "2.1.0",
-      "aarch64-linux": "2.1.0",
+      "aarch64-darwin": "2.1.1",
+      "aarch64-linux": "2.1.1",
       "armv7l-linux": "1.8.2",
       "i686-linux": "1.5.17",
-      "x86_64-darwin": "2.1.0",
-      "x86_64-linux": "2.1.0"
+      "x86_64-darwin": "2.1.1",
+      "x86_64-linux": "2.1.1"
     },
     "latestPrerelease": {
       "aarch64-darwin": "2.1.0-rc.1",
