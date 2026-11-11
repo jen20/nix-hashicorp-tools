@@ -5,16 +5,22 @@ on:
     branches: [main]
   pull_request:
 
+permissions:
+  contents: read
+
 concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
+# Action commits are pinned in .github/workflows/actions.lock.
 jobs:
   go:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: DeterminateSystems/nix-installer-action@main
+        with:
+          persist-credentials: false
+      - uses: DeterminateSystems/nix-installer-action@v23
 
       - name: Format
         run: |
@@ -49,7 +55,9 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: DeterminateSystems/nix-installer-action@main
+        with:
+          persist-credentials: false
+      - uses: DeterminateSystems/nix-installer-action@v23
 
       # Scoped rather than run over "." so that the vendored dependency, which
       # carries a flake of its own, is left exactly as `go mod vendor` wrote it.
